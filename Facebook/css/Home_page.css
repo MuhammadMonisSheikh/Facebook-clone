@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
+ 
 body{
     overflow: hidden;
 }
@@ -112,21 +112,40 @@ margin:0 5px;
 
 nav .nav-right a > i{
      font-size: 16px;
-     }
+}
      
 .container{
     display: flex;
-    background: #eee;
+    background: #F0F2F5;
 }
-
 
 .container .left-pannel{
 display: flex;
-    width: 250px;
-    height: auto;
 flex-direction: column;
-overflow: scroll;
+     width: 333px;
+    height:90vh;
+overflow-y: scroll;
+overflow-x: hidden;
 margin-top: 67px;
+}
+ 
+.left-pannel::-webkit-scrollbar{
+    width: 7px;
+}
+ 
+.left-pannel::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 10px;
+    border: 3px solid transparent;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.left-pannel::-webkit-scrollbar-track {
+    background: transparent;
 }
 
 .container .left-pannel ul{
@@ -138,30 +157,75 @@ list-style: none;
 display: flex;
 padding: 10px;
 align-items: center;
+cursor: pointer;
+transition: .3s;
+border-radius: 10px;
 }
+
+.container .left-pannel ul li > a.link{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    }
+    
 
 .container .left-pannel ul li:hover{
      background: #ddd;
 }
 
 
-.container .left-pannel ul li .name{
+.container .left-pannel ul li > p{
  margin-left: 10px;
 }
 
+ 
 .container .left-pannel .profile{
     background:url(../img/Monis_profile.png);
     height: 45px;
-    width:60px;
+    width:45px;
     background-size: cover;
     border-radius: 50%;
     cursor: pointer;
 }
 
-.container .left-pannel ul li .messenger{
-    width: 30px;
+img.shop {
+    width: 39px;
 }
 
+img.save {
+    width: 36px;
+}
+
+i.fas.fa-angle-down {
+    background: #E4E6EB;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+.border-line {
+    color: #B0B3B8;
+    background-color: rgba(128, 128, 128, 0.4);
+    height: 0.1rem;
+    width: 93%; 
+     border: 1px solid;
+     margin: 10px 0px 39px 13px;
+    }
+
+.heading-shortcut {
+        font-size: 17px;
+        font-weight: 600;
+        color: #75777B;
+        margin-top: 16px;
+        margin-left: 13px;
+    }
 
 .container .left-pannel ul li .tech-work{
     border-radius: 50%;
@@ -169,20 +233,53 @@ align-items: center;
 
 
 .container .left-pannel ul li .smash-code{
-    width: 30px;
+    width: 13%;
     border-radius: 50%;
 }
 
 
 
 .container .left-pannel ul li .hisham-sarwar{
-    width: 30px;
-    border-radius: 50%;
+    width: 11%;
+    border-radius: 36%;
 }
 
 
 .container .left-pannel ul li .connected-pakistan{
-    width: 30px;
-    border-radius: 50%;
+    width: 34px;
+    height: 22px;
+    border-radius: 17%;
+}
+.container .left-pannel .footer-links {
+    padding: 12px;
 }
 
+.container .left-pannel .footer-links > a{
+    text-decoration: none;
+color: #75777B;
+}
+
+.container .left-pannel .footer-links > a:hover{
+    text-decoration: underline;
+
+}
+
+
+.container .middle-pannel{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.container .middle-pannel .story-reel{
+    background-color: #FFFFFF;
+}
+
+
+.container .right-pannel{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
