@@ -284,7 +284,7 @@ i.fas.fa-angle-down {
     align-items: center;
     overflow-x: hidden;
     overflow-y: scroll !important;
-    margin-top:10%;
+    margin-top:16%;
 }
 
 .mid-pannel-container::-webkit-scrollbar {
@@ -486,6 +486,7 @@ i.fas.fa-angle-right {
 .post .post-top{
 display: flex;
 align-items: center;
+padding: 10px;
 }
 
 
@@ -503,18 +504,47 @@ overflow: hidden;
 
 .post .post-top .post-info{
    margin-left: 10px;
+   font-weight: bold;
 }
 
 
 .post .post-top .post-info .name{
 cursor: pointer;
-font-size: 10px;
+font-size: 16px;
+
 }
  
 
 .post .post-top .post-info .time{
+    font-size: 12px;
     cursor: pointer;
 }
+
+
+.post .post-top i{
+       margin-left: auto;
+}
+
+.post .post-content {
+   font-size: 16px;
+   font-weight: normal;
+padding: 10px;
+}
+
+.post .post-bottom {
+box-shadow: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+.post .post-bottom .action {
+  padding: 5px 10px;
+ }
+
+ 
+.post .post-bottom .action:hover{
+  background: #ddd;
+}
+  
 
 /* Right Pannel */
 .container .right-pannel {
