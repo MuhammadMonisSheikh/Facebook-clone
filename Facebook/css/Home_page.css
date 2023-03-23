@@ -342,6 +342,7 @@ bottom: 6px;
     align-items: center;
     padding: 25px;
 color: #333;
+transition: .3s ease-in;
 }
 
 
@@ -481,6 +482,7 @@ i.fas.fa-angle-right {
     background-color: #fff;
     border-radius: 10px;
     padding: 10px;
+margin: 16px;
 }
 
 .post .post-top{
@@ -523,7 +525,22 @@ font-size: 16px;
 
 .post .post-top i{
        margin-left: auto;
+cursor: pointer;
 }
+
+
+.post .post-top > input{
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    flex: 1;
+    background: #eee;
+    margin-left: 10px;
+}
+
+
 
 .post .post-content {
    font-size: 16px;
@@ -531,20 +548,60 @@ font-size: 16px;
 padding: 10px;
 }
 
+
+.post .post-content > img{
+    width: 100%;
+    margin: 5px 0px;
+ }
+
+
 .post .post-bottom {
 box-shadow: 1px solid #ddd;
     display: flex;
     justify-content: space-between;
+    padding: 5px 5px 0px 5px;
 }
 .post .post-bottom .action {
-  padding: 5px 10px;
- }
+  padding:10px;
+border-radius: 10px;
+transition: .3s ease-in;
+cursor: pointer;
+display: flex;
+align-items: center;
+}
 
  
 .post .post-bottom .action:hover{
   background: #ddd;
 }
-  
+
+.border-line-3{
+    font-size: 20px;
+    color: #B0B3B8;
+    background-color: rgba(128, 128, 128, 0.4);
+    height: 0.1rem;
+    border: 1px solid;
+}
+
+.post .post-bottom .action > i.fa-video{
+    color: red;
+    font-size: 25px;
+    padding-right: 8px;
+}
+
+
+.post .post-bottom .action > i.fa-image{
+    color: green;
+    font-size: 25px;
+    padding-right: 8px;
+}
+
+
+.post .post-bottom .action > i.fa-smile{
+    color: yellow;
+    font-size: 25px;
+    padding-right: 8px;
+}
 
 /* Right Pannel */
 .container .right-pannel {
