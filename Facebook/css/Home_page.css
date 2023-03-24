@@ -553,7 +553,25 @@ padding: 10px;
     width: 100%;
     margin: 5px 0px;
  }
+.post .post-React-container{
+    width: 100%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+}
 
+.post .post-React-container .post-react-thumb{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
+
+.post .post-React-container .post-react-likes{
+    color: #b0b3b8;
+    font-size: 15px;
+    margin-left: 5px;
+}
 
 .post .post-bottom {
 box-shadow: 1px solid #ddd;
