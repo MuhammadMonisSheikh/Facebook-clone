@@ -284,7 +284,8 @@ i.fas.fa-angle-down {
     align-items: center;
     overflow-x: hidden;
     overflow-y: scroll !important;
-    margin-top:16%;
+    margin-top:10%;
+    padding-bottom: 14%; 
 }
 
 .mid-pannel-container::-webkit-scrollbar {
@@ -570,7 +571,9 @@ justify-content: space-between;
 .post .post-React-container .post-react-likes{
     color: #b0b3b8;
     font-size: 15px;
-    margin-left: 5px;
+    margin-left: -1px;
+    display: flex;
+    align-items: center;
 }
 
 .post .post-bottom {
