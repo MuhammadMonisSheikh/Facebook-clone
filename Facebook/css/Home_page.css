@@ -628,7 +628,59 @@ align-items: center;
 .container .right-pannel {
     display: flex;
     flex-direction: column;
-    overflow-y: scroll;
+   width: 355px;
+    height: auto;
+    overflow: scroll;
     overflow-x: hidden;
 }
 
+.right-pannel .pages-section{
+    padding: 10px 0px;
+}
+
+
+.right-pannel .pages-section h4{
+margin-bottom: 10px;
+}
+
+
+.right-pannel .pages-section .page{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: .3s ease-in-out;
+    border-radius: 5px;
+padding: 7px 10px;
+color: #333;
+}
+
+.right-pannel .pages-section .page:hover{
+    background: #ddd;
+}
+
+
+.right-pannel .pages-section .page > .dp{
+   height: 40px;
+   width: 40px;
+   border-radius: 50%;
+   overflow: hidden;
+cursor: pointer;
+}
+
+
+
+.right-pannel .pages-section .page > .dp > img{
+width: 100%;
+}
+
+
+
+.right-pannel .pages-section .page > .dp > .name{
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+margin-left: 8px;
+}
+    
+     
+ 
