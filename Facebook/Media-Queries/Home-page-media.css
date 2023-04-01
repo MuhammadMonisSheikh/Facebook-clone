@@ -201,8 +201,40 @@
   }
   
   @media (max-width:700px) {
-   
-  } 
+    .responsive-header{
+      display: flex;
+}
+
+.responsive-pannel{
+  display: flex;
+}
+
+nav .nav-right> .responsive-rit {
+display: none;
+
+}
+nav .nav-right> .responsive-rit3{
+  background: none;
+}
+img.grip-lines {
+  width: 26px;
+}
+
+    .logo1{
+    display: inline;
+   }
+   .logo2{
+    display: none;
+   }
+   nav .nav-left>img {
+    width: 115px;
+}
+
+nav .responsive-nav {
+display: none;
+}
+} 
+
     
   
   @media (max-width:680px) {

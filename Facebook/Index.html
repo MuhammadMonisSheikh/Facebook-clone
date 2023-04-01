@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Facebook</title>
-  <link rel="icon" href="img/Facebook.png">
+  <link rel="icon" href="img/Facebookicon.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   <link rel="stylesheet" href="css/Home_page.css">
   <link rel="stylesheet" href="Media-Queries/Home-page-media.css">
@@ -15,13 +15,14 @@
   <!-- HEADER -->
   <nav>
     <div class="nav-left">
-      <img src="img/Facebook.png" alt="Logo">
+      <img src="img/Facebook.png" alt="Logo1" class="Logo1">
+      <img src="img/Facebookicon.png" alt="Logo2" class="logo2">
       <form>
         <input type="text" placeholder="Search Facebook">
         <i class="fas fa-magnifying-glass"></i>
       </form>
     </div>
-    <div class="nav-middle">
+    <div class="nav-middle responsive-nav">
 
       <a href="#home" class="active"><i class="fas fa-house"></i></a>
       <a href="#Watch" class="mid"><i class="fas fa-tv"></i></a>
@@ -30,13 +31,40 @@
       <a href="#flag" class="mid"><i class="fas fa-flag"></i></a>
     </div>
     <div class="nav-right">
-      <a href="" class="rit"><i class="fas fa-ellipsis"></i></a>
+      <a href="" class="rit .responsive-nav"><i class="fas fa-ellipsis"></i></a>
       <a href="" class="rit"><i class="fas fa-message"></i></a>
       <a href="" class="rit"><i class="fas fa-bell"></i></a>
       <span class="profile"></span>
 
     </div>
   </nav>
+<!-- RESPONSIVE HEADER -->
+<nav class="responsive-header">
+  <div class="nav-left responsive-nav">
+    <img src="img/Facebook.png" alt="Logo1" class="Logo1">
+    <img src="img/Facebookicon.png" alt="Logo2" class="logo2">
+    <form>
+      <input type="text" placeholder="Search Facebook">
+      <i class="fas fa-magnifying-glass"></i>
+    </form>
+  </div>
+  <div class="nav-middle">
+
+    <a href="#home" class="active"><i class="fas fa-house"></i></a>
+    <a href="#Watch" class="mid"><i class="fas fa-tv"></i></a>
+    <a href="#shop" class="mid"><i class="fas fa-shop"></i></a>
+    <a href="#" class="mid"><i class="fas fa-users"></i></a>
+    <a href="#flag" class="mid"><i class="fas fa-flag"></i></a>
+  </div>
+  <div class="nav-right">
+    <a href="" class="rit responsive-rit"><i class="fas fa-ellipsis"></i></a>
+    <a href="" class="rit responsive-rit"><i class="fas fa-message"></i></a>
+    <a href="" class="rit responsive-rit3"><img src="img/svg/icons8-hamburger-menu.svg" alt="" class="grip-lines"></a>
+    <span class="profile responsive-rit"></span>
+
+  </div>
+</nav>
+
    <!-- CONTAINER -->
 
   <div class="container">
