@@ -9,6 +9,14 @@ body {
     overflow: hidden;
 }
 
+header{
+    background-color: #fff;
+}
+
+.responsive-create{
+    display: none;
+}
+
 .responsive-header{
     display: none;
 }
@@ -103,6 +111,10 @@ nav .nav-right .profile, .container .left-pannel .profile {
     cursor: pointer;
 }
 
+nav .nav-right>form{
+display: none;
+}
+
 nav .nav-right a {
     text-decoration: none;
     color: #333;
@@ -116,6 +128,10 @@ nav .nav-right a {
     margin: 0 5px;
 }
 
+nav .nav-right> .responsive-rit4 {
+    display: none;
+    
+    }
 
 nav .nav-right a>i {
     font-size: 16px;

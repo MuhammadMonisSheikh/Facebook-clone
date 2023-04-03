@@ -201,6 +201,35 @@
   }
   
   @media (max-width:700px) {
+
+
+    .responsive-create{
+      display: inline;
+  }
+.middle-pannel .mid-pannel-container  .create{
+    display: none;
+  }
+  
+
+header> .responsive-create .post-top {
+     padding-left: 97px;
+    width: 161vh;
+}
+
+header> .responsive-create .border-line-3 {
+   width: 179.5vh;
+}
+
+header> .responsive-create .post-bottom {
+  padding-left:100px;
+  margin-right: -50px;
+}
+
+    .nav-responsive-right{
+  display: flex;
+  align-items: end;
+}
+
     .responsive-header{
       display: flex;
 }
@@ -208,14 +237,19 @@
 .responsive-pannel{
   display: flex;
 }
+nav .nav-middle a {
+   margin: 0px 43px;
+}
 
 nav .nav-right> .responsive-rit {
 display: none;
 
 }
-nav .nav-right> .responsive-rit3{
-  background: none;
+
+nav .nav-right> .responsive-rit4{
+  display: grid;
 }
+
 img.grip-lines {
   width: 26px;
 }
@@ -233,6 +267,32 @@ img.grip-lines {
 nav .responsive-nav {
 display: none;
 }
+
+nav .nav-right>form>i.fas.fa-magnifying-glass {
+  margin-left: -35px;
+}
+
+nav .nav-right>form>input{
+  height: 40px;
+  width: 40px;
+  outline: none;
+  border: none;
+  padding: 20px;
+  color: #e4e6eb;
+    background-color: #eee;
+  font-size: 15px;
+  border-radius: 25px;
+  margin-right: 8px;
+}
+nav .nav-right>form{
+display: inline;
+margin: 0 16px;
+}
+
+nav .nav-left>form{
+display: none;
+}
+
 } 
 
     
