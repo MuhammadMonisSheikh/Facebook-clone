@@ -1,23 +1,4 @@
- 
-  
-  
-   
-  
-  @media (max-width: 1400px) {
-   }
-  
-  
-   
-  
-   
-  
-  @media (max-width: 1300px) {
-   }
-  
-    
-  
-  
-  @media (max-width: 1250px) {
+@media (max-width: 1250px) {
     .container .right-pannel {
          width: 266px;
           right: 2px;
@@ -28,8 +9,7 @@
         right: 1px;
     }  
 }
-   
-  
+     
   @media (max-width: 1200px) {
 
 .container .middle-pannel .story-section .stories .story {
@@ -41,9 +21,6 @@
 
 }
    
-  
-   
-  
   @media (max-width: 1150px) {
      
   }
@@ -66,13 +43,12 @@
         border-radius: 25px;
         margin-right: 8px;
     }
-  }
-  
-  @media (max-width: 1100px) {
+}
+ 
+@media (max-width: 1100px) {
   
      
-  }
-   
+}
   
   @media (max-width: 1080px) {
     .container .left-pannel {
@@ -93,17 +69,15 @@
 }
 
 }
-   
-  
-  
-  @media (max-width: 1050px) {
+    
+@media (max-width: 1050px) {
    
   }
  
    
-  @media (max-width: 1020px) {
+@media (max-width: 1020px) {
     
-  } 
+} 
  
   
   @media (max-width: 1000px) {
@@ -166,7 +140,7 @@
     }
   }
   
-    @media (max-width:800px) {
+@media (max-width:800px) {
     .container .middle-pannel {
         width: 817px;
     }
@@ -183,9 +157,7 @@
     }
 
   }
-  
    
-  
   @media (max-width:780px) {
     
   
@@ -225,10 +197,7 @@ header> .responsive-create .post-bottom {
   margin-right: -50px;
 }
 
-    .nav-responsive-right{
-  display: flex;
-  align-items: end;
-}
+ 
 
     .responsive-header{
       display: flex;
@@ -238,21 +207,25 @@ header> .responsive-create .post-bottom {
   display: flex;
 }
 nav .nav-middle a {
-   margin: 0px 43px;
+   margin: 0px 38px;
 }
+
+header> .responsive-header .nav-responsive-right{
+  display: none;
+}
+
 
 nav .nav-right> .responsive-rit {
-display: none;
-
-}
-
-nav .nav-right> .responsive-rit4{
+  display: none;
+  
+  }
+  
+  
+nav .nav-right> .responsive-rit4 {
   display: grid;
-}
-
-img.grip-lines {
-  width: 26px;
-}
+  
+  }
+  
 
     .logo1{
     display: inline;
@@ -293,80 +266,175 @@ nav .nav-left>form{
 display: none;
 }
 
+.container {
+  height: 70vh;
+}
+
+.container .middle-pannel .mid-pannel-container {
+  width: 178vh;
+}
+
+.post-container-flex {
+    height: 1100px;
+}
+
+.story-section {
+  width: 183vh;
+}
+
+.stories {
+  padding-left: 29px !important;
+}
+
+.container .middle-pannel .story-section .stories .story {
+  display: inline;
+  width: 162px;
+  height: 247px;
+}
+
+.post {
+  width: 792px;
+  margin: 57px;
 } 
+
+.container .middle-pannel .story-section .stories .story.create .name {
+  left: 31px;
+}
+
+}
 
     
   
   @media (max-width:680px) {
-    .container {
-        height: 120vh;
-    }  
+     
+
+    header> .responsive-create .post-bottom {
+      padding-left: 147px;
+    }
   }
   
   @media (max-width:650px){ 
     .container {
-        height: 128vh;
-    }
+      height: 82vh;
+  }
   }
   @media (max-width:620px) {
-   
-  }
-  @media (max-width:600px) {
     .container {
-        height: 137vh;
-    }
+      height: 90vh;
   }
-   
   
-  
+  header> .responsive-create .post-bottom {
+    padding-left: 139px;
+    margin-right: -145px;
+}
+
+
+}
+@media (max-width:600px) {
+.container {
+  height: 94vh;
+}
+}
+
+
   @media (max-width:580px) {
     .container {
-        height: 144vh;
+        height: 100vh;
     }
   }
   
    
   @media (max-width:550px) {
-       
+    .container {
+      height: 108vh;
+  }  
+
+  .post .post-content {
+    font-size: 23px;
+}
+
+
+.post .post-top .post-info .name {
+   font-size: 20px;
+}
+
+
   }
   
   
   @media (max-width:530px) { 
+
+    .container {
+      height: 114vh;
   }
+  
+}
   
    
   @media (max-width:500px) {
-     
+    .container {
+      height: 125vh;
+  }
+  header> .responsive-create .post-bottom {
+    padding-left: 98px;
+    margin-right: -256px;
+}
+  
   }
    
   
   @media (max-width:480px) {
+   
+    .container {
+      height: 132vh;
+  }
+  header> .responsive-create .post-bottom {
+    padding-left: 133px;
+    margin-right: -296px;
+}
     
   }
    
   @media (max-width:450px) {
-   
+    .container {
+      height: 144vh;
+  }
   }
   
   @media (max-width:400px) {
+    .container {
+      height: 166vh;
+  }
    }
   
   @media (max-width: 380px) {
- 
+    .container {
+      height: 178vh;
+  }
   }
   
   
   @media (max-width: 350px){
    
+    .container {
+      height: 198vh;
+  }
   
 }
 
 @media (max-width: 325px) {
- }
+ 
+  .container {
+    height: 217vh;
+}
+
+}
  
   @media (max-width: 320px) {
   
-     
+    .container {
+      height: 222vh;
+  }
   
   }
   
