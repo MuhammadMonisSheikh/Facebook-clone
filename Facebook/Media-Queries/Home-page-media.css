@@ -130,11 +130,11 @@ display: none;
   
   @media (max-width:850px) {
     nav {
-      width: 833px;
+      width: 100%;
   }
   
     .container {
-      width: 833px;
+      width: 100%;
   }
    
       .container .right-pannel {
@@ -172,16 +172,8 @@ display: none;
   }
   
   
-  @media (max-width:750px) {
-   
-  }
+  @media (max-width:755px) {
   
-  @media (max-width:720px) {
-    
-  }
-  
-  @media (max-width:700px) {
-
 
     .responsive-create{
       display: inline;
@@ -192,17 +184,17 @@ display: none;
   
 
 header> .responsive-create .post-top {
-     padding-left: 70px;
-    width: 116vw;
+     padding-left: 34px;
+    width:94vw;
 }
 
 header> .responsive-create .border-line-3 {
-   width: 126vw;
+   width: 100%;
 }
 
 header> .responsive-create .post-bottom {
   padding-left:100px;
-  margin-right: -50px;
+  margin-right: 54px;
 }
 
  
@@ -215,7 +207,7 @@ header> .responsive-create .post-bottom {
   display: flex;
 }
 nav .nav-middle a {
-   margin: 0px 38px;
+   margin: 0px 27px;
 }
 
 header> .responsive-header .nav-responsive-right{
@@ -273,14 +265,32 @@ margin: 0 16px;
 nav .nav-left>form{
 display: none;
 }
+ 
+  }
+  
+  @media (max-width:738px) {
+    nav .nav-middle {
+       width: 100%;
+  }
+  
+  }
+  
+  @media (max-width:710px) {
+  
+    nav .nav-middle a {
+      margin: 0px 25px;
+  }
+    
+}
 
+  @media (max-width:700px) {
+ 
 .container {
   height: 70vh;
-  width: 880px;
 }
 
 .container .middle-pannel .mid-pannel-container {
-  width: 123vw;
+  width: 80vw;
 }
 
 .post-container-flex {
@@ -288,7 +298,7 @@ display: none;
 }
 
 .story-section {
-  width: 127vw;
+  width: 97vw;
 }
 
 .stories {
@@ -302,7 +312,7 @@ display: none;
 }
 
 .post {
-  width: 792px;
+  width: 96vw;
   margin: 57px;
 } 
 
