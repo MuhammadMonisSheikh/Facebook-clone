@@ -38,7 +38,7 @@ nav .nav-left, nav .nav-right {
     align-items: center;
 }
 
-nav .nav-left>img {
+nav .nav-left>a>img {
     width: 40px;
 }
 
@@ -162,6 +162,7 @@ display: none;
     overflow-y: scroll;
     overflow-x: hidden;
     position: fixed;
+background-color: #fff;
 }
 
 .left-pannel::-webkit-scrollbar {
@@ -182,6 +183,25 @@ display: none;
 .left-pannel::-webkit-scrollbar-track {
     background: transparent;
 }
+
+
+.container .left-pannel .top-left-pannel>form>input {
+    height: 40px;
+    padding: 5px 10px;
+    border: none;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    outline: none;
+    background-color: #eee;
+    margin-left: 10px;
+}
+
+.container .left-pannel .top-left-pannel>form>i.fas.fa-magnifying-glass {
+    margin-left: -30px;
+}
+
 
 .container .left-pannel ul {
     padding: 10px 0px;
