@@ -301,7 +301,12 @@ nav .nav-right .profile, .container .left-pannel .profile {
 
 }  
   @media (max-width:755px) {
-     .responsive-create{
+
+    nav .nav-middle {
+      padding-left: 0px;
+    }
+
+.responsive-create{
       display: inline;
 }
 
@@ -344,7 +349,7 @@ header> .responsive-create .post-bottom {
   display: flex;
 }
 nav .nav-middle a {
-   margin: 0px 27px;
+   margin: 0px 28px;
 }
 
 header> .responsive-header .nav-responsive-right{
@@ -518,12 +523,18 @@ nav .nav-middle a {
     margin: 0px 20px;
 }
 }
-  
+
+@media (max-width:650px) {
+
+nav .nav-middle a {
+  margin: 0px 23px;
+}
+}
+
 
   @media (max-width:644px) {
-
   nav .nav-middle a {
-    margin: 0px 18px;
+    margin: 0px 22px;
 }
 
 .container .middle-pannel {
@@ -539,13 +550,13 @@ nav .nav-middle a {
 
   @media (max-width:633px) {
     nav .nav-middle a {
-      margin: 0px 18px;
+      margin: 0px 20px;
   }
 }
 
 @media (max-width: 620px){
   nav .nav-middle a {
-    margin: 0px 16px;
+    margin: 0px 18px;
 }
 }
 
@@ -554,10 +565,7 @@ nav .nav-middle a {
 
   nav .nav-middle a>i {
     font-size: 20px;
-}
-nav .nav-middle a {
-  margin: 0px 15px;
-}
+} 
  
 .story-heading::after {
   width: 38vw;
@@ -574,14 +582,21 @@ nav .nav-middle a {
 nav .nav-middle a {
   margin: 0px 16px;
 }
+
+.story-heading {
+   font-size: 22px;
+}
+
+.story-heading::after {
+  width: 36vw;
+}
+
+.reel {
+   font-size: 22px;
+}
 }
  
-
-@media (max-width:568px) {
-nav .nav-middle a {
-  margin: 0px 14px;
-}
-}
+ 
 
   @media (max-width:550px) {
       
@@ -591,7 +606,7 @@ nav .nav-middle a {
     width: 94vw;
 }
   nav .nav-middle a {
-    margin: 0px 12px;
+    margin: 0px 13px;
 
 }
 
@@ -607,7 +622,7 @@ nav .nav-middle a {
   
   
     nav .nav-middle a {
-      margin: 0px 10px;
+      margin: 0px 12px;
   }
  
   header> .responsive-create .post-bottom {
@@ -622,7 +637,20 @@ nav .nav-middle a {
   width: 98vw;
 }
 
+.story-heading {
+font-size: 20px;
 }
+
+.story-heading::after {
+  width: 34vw;
+left: -25px;
+}
+
+.reel {
+  font-size: 20px;
+}
+}
+
 @media (max-width:520px) {
 
   .story-heading::after {
@@ -630,10 +658,31 @@ nav .nav-middle a {
     left: -36px;
 }
 }
-  @media (max-width:480px) {
- nav .nav-middle a {
-    margin: 0px 8px;
+ 
+@media (max-width:500px) {
+
+  
+  .container .middle-pannel .story-section {
+     margin-top: -6px;
+  }
+
+.story-reel {
+  display: none !important;
 }
+
+.border-line-2 {
+  display: none !important;
+}
+
+}
+
+@media (max-width:480px) {
+ nav .nav-middle a {
+    margin: 0px 11px;
+}
+
+
+
 
 header> .responsive-create .post-bottom {
   padding-left: 0px;
@@ -653,7 +702,7 @@ header> .responsive-create .post-top {
 
 .container .middle-pannel .story-section {
     width: 99vw;
-}
+ }
 
 
 .container .middle-pannel .story-section .stories .story.create .name {
@@ -661,9 +710,10 @@ header> .responsive-create .post-top {
 }
   }   
   @media (max-width:450px) {
-  nav .nav-middle a {
-    margin: 0px 5px;
-}
+ 
+    nav .nav-middle a {
+      margin: 0px 9px;
+  }
 .stories {
   padding-left: 0px !important;
 }
@@ -697,12 +747,16 @@ header> .responsive-create .post-top {
 }
  
 @media (max-width: 380px) {
-    .container {
+  .container .middle-pannel .story-section .stories .responsive-story{
+    display: none;
+  }
+ 
+  .container {
       height: 49vh;
 }
 
 nav .nav-middle a {
-    margin: 0px 1px;
+    margin: 0px 4px;
 }
 .story-heading::after {
   left: -12px;
@@ -722,11 +776,13 @@ nav .nav-middle a {
 }
   
   @media (max-width: 360px){
- 
-    nav .nav-middle {
-      padding-left: 18px;
-  }
-
+    nav .nav-middle a {
+      margin: 0px 2px;
+}
+  
+.container .middle-pannel .story-section .stories .story.create .name {
+  left: 9px;
+}
     .post .post-bottom .action>i.fa-video {
     font-size: 10px;
  }
@@ -738,6 +794,19 @@ nav .nav-middle a {
 
 .post .post-bottom .action>i.fa-smile {
     font-size: 10px;
+}
+
+}
+@media (max-width: 320px){
+  nav .nav-middle a {
+    margin: 0px 0px;
+}
+.container .middle-pannel .story-section .stories .story.create .name {
+  left: 3px;
+}
+
+.post .post-bottom .action>span {
+  font-size: 10px;
 }
 
 }
