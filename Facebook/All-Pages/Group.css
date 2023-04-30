@@ -5,8 +5,8 @@
     font-family: sans-serif;
 }
 
-body::-webkit-scrollbar {
-display: none;
+body  {
+overflow: hidden;
 }
  
 
