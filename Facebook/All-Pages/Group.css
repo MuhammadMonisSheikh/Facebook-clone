@@ -31,6 +31,7 @@ nav {
     background-color: #fff;
     box-shadow: 0px 1px 3px #ccc;
     position: static;
+    border-bottom: solid 1px #eee;
 }
 
 nav .nav-left, nav .nav-right {
@@ -147,7 +148,7 @@ nav .nav-right a>i {
     background: #F0F2F5;
     overflow: scroll;
     overflow-x: hidden;
-    height: 93vh;
+    height: 92vh;
 }
 
 .responsive-pannel{
@@ -254,6 +255,24 @@ cursor: pointer;
     border-radius: 10px;
 }
 
+
+
+i.fas.fa-angle-right{
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #eee;
+    display: grid;
+    place-items: center; 
+    left: 150px;
+}
+
+
+
 .container .left-pannel ul li>a.link {
     list-style: none;
     display: flex;
@@ -264,6 +283,10 @@ cursor: pointer;
     border-radius: 10px;
     text-decoration: none;
     color: black;
+}
+
+.active2{
+    background: #ddd !important;
 }
 
 
@@ -293,6 +316,47 @@ i.fas.fa-angle-down {
     border-radius: 50%;
     display: grid;
     place-items: center;
+}
+
+i.angle-down1{
+    position: relative;
+    left:130px;
+}
+
+i.angle-down2{
+    position: relative;
+    left:118px;
+}
+
+
+i.angle-down3{
+    position: relative;
+    left:124px;
+}
+
+i.angle-down4{
+    position: relative;
+    left:142px;
+}
+
+i.angle-down5{
+    position: relative;
+    left:177px;
+}
+
+i.angle-down6{
+    position: relative;
+    left:86px;
+}
+
+i.angle-down7{
+    position: relative;
+    left:54px;
+}
+
+i.angle-down8{
+    position: relative;
+    left:67px;
 }
 
 .border-line {
@@ -328,25 +392,26 @@ i.fas.fa-pager{
 
 i.fas.fa-compass{
     text-decoration: none;
-    color: #fff;
+    color: #333;
     font-size: 1rem;
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background: #1877F2;
+    background: #eee;
     display: grid;
     place-items: center;
     margin: 0px -1px  0px 1px;
 }
 
-i.fas.fa-users{
+
+.container .left-pannel ul li i.fas.fa-users{
     text-decoration: none;
-    color: #fff;
+    color: #333;
     font-size: 1rem;
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background: #1877F2;
+    background: #eee;
     display: grid;
     place-items: center;
     margin: 0px -1px  0px 1px;
@@ -354,6 +419,7 @@ i.fas.fa-users{
 
 .container .left-pannel ul li .tech-work {
     border-radius: 50%;
+    width: 13%;
 }
 
 
@@ -403,7 +469,7 @@ i.fas.fa-users{
 /* MIDDLE PANNEL*/
 
 .container .middle-pannel {
-    width: 1347px;
+    width: 1264px;
     height: 100%;
 
 }
@@ -419,7 +485,10 @@ i.fas.fa-users{
 }
 
 .middle-pannel .mid-pannel-container>h4 {
-margin-left: 0px;
+    position: relative;
+    left: -208px;
+    color: #65676B;
+font-size: 14px;
 }
  
 .border-line-2 {
@@ -430,10 +499,33 @@ margin-left: 0px;
 
 }
 
-button {
-    display: flex;
+.button {
+     padding-left: 12px;
+    }
+    button{
+        display: flex;
+        background-color: #E7F3FF;
+        height: 36px;
+        width :22vw;
+        align-items: center;
+        justify-content: center;
+        color: #385898;
+        cursor: pointer;
+        border:solid 0px #E7F3FF;
+        border-radius: 2px;
 }
-/* Postes */
+button:hover{
+background-color: #ddd;
+}
+
+button:visited{
+    background-color: #acd0f5;
+}
+i.fas.fa-plus {
+    width: 2vw;
+}
+
+   /* Postes */
 .post {
     width: 550px;
     background-color: #fff;
@@ -594,7 +686,7 @@ button {
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 30vw;
    overflow: scroll;
     overflow-x: hidden;
     position: fixed;
@@ -602,6 +694,7 @@ button {
     background-color: #fff;
     top: 80px;
     border-radius: 6%;
+    right: 30px;
 }
 
 
