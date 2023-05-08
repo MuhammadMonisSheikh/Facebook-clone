@@ -498,7 +498,6 @@ font-size: 14px;
     border: 1px solid;
 
 }
-
 .button {
      padding-left: 12px;
     }
@@ -687,10 +686,7 @@ i.fas.fa-plus {
     display: flex;
     flex-direction: column;
     width: 30vw;
-   overflow: scroll;
-    overflow-x: hidden;
-    position: fixed;
-    right: 40px;
+    position: fixed; 
     background-color: #fff;
     top: 80px;
     border-radius: 6%;
