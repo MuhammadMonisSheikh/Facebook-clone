@@ -376,6 +376,31 @@ i.angle-down8{
     margin-left: 13px;
 }
 
+.shortcut3{
+display: flex;
+justify-content: space-between;
+}
+
+.heading-shortcut3 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #75777B;
+     margin-left: 13px;
+     margin-top: 4px;
+}
+
+.see-all{
+    color: #3B80DF;
+    font-size: 14px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.see-all:hover{
+    background: #cdcdcd;
+    background-size: cover;
+}
+
 i.fas.fa-pager{
     text-decoration: none;
     color: #fff;
