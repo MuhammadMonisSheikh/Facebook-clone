@@ -93,6 +93,11 @@ button {
   }
 
 }
+@media (max-width: 1260px) {
+.container .left-pannel .top-left-pannel>form>input {
+  width: 24vw;
+}
+}
 
 @media (max-width: 1250px) {
   .middle-pannel .mid-pannel-container>h4 {
