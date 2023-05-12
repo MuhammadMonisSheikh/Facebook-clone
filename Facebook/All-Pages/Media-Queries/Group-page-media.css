@@ -103,8 +103,10 @@ button {
   .middle-pannel .mid-pannel-container>h4 {
     left: -244px; 
 }
-.container .left-pannel .top-left-pannel>form>input {
-   width: 23vw;
+
+button {
+  width: 25vw;
+  padding-right: 16px;
 }
 }
 
@@ -112,12 +114,19 @@ button {
 .container .middle-pannel .mid-pannel-container {
       padding-left: 290px;
 }
+
+.container .left-pannel .top-left-pannel>form>input {
+  width: 25vw;
+}
 }
 
 @media (max-width: 1200px) {
 .middle-pannel .mid-pannel-container>h4 {
     left: -229px;
 } 
+.container .left-pannel .top-left-pannel>form>input {
+  width: 26vw;
+}
 
 
 }
@@ -133,6 +142,8 @@ button {
   left: -230px;
 }
 }
+
+
 
 @media (max-width: 1150px) {
   .container .middle-pannel .mid-pannel-container {
@@ -151,6 +162,15 @@ p.link2 {
 .container .middle-pannel .mid-pannel-container {
   padding-left: 360px;
 }
+.container .left-pannel .top-left-pannel>form>input {
+  width: 27vw;
+}
+
+button {
+  width: 27vw;
+  padding-right: 20px;
+}
+
 }
 @media (max-width: 1130px) {
 
