@@ -43,7 +43,11 @@ nav .nav-left>a>img {
     width: 40px;
 }
 
-.Logo1{
+h4.group-header-heading{
+    display: none;
+}
+
+a.rit.responsive-rit-gear{
     display: none;
 }
 
