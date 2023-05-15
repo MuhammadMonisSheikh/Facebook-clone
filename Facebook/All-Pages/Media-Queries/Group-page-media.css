@@ -368,9 +368,49 @@ button {
   nav .nav-middle {
     padding-left: 0px;
   }
+   .container .left-pannel {
+ display: none;
+}
+
+.responsive-group-pannal{
+display: flex;
+}
+ 
+.container .responsive-group-pannal .group {
+  width: 124px;
+  height: 210px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 0px 5px;
+  box-shadow: 0 0 5px 5px #ddd;
+  background: #fff;
+}
+
+.container .responsive-group-pannal .group>img {
+  transition: .3s ease-in;
+  width: 100%;
+  height: 100%;
+}
+
+  .top-left-pannel{
+    display: none;
+}
+
   h4.group-header-heading{
     display: inline;
   }
+
+  .active-responsive{
+    color: royalblue !important;
+    width: 13vw;
+    height: 35px;
+background: #4169e170;
+  }
+
+ 
+
   a.rit.responsive-rit-message{
     display: none;
   }
