@@ -43,6 +43,11 @@ nav .nav-left>a>img {
     width: 40px;
 }
 
+
+.responsive-group-pannal{
+    display: none;
+}
+
 h4.group-header-heading{
     display: none;
 }

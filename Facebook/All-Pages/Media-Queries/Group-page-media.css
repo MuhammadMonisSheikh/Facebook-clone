@@ -367,18 +367,39 @@ button {
 
   nav .nav-middle {
     padding-left: 0px;
-  }
+}
+
+.container{
+  flex-direction: column;
+}
+
+
+.container .middle-pannel .mid-pannel-container {
+  width: 70vw !important;
+  position: relative;
+  left: -84px !important;
+}
+
+.middle-pannel .mid-pannel-container>h4 {
+  left: -236px;
+}
+
+
+
    .container .left-pannel {
  display: none;
 }
 
 .responsive-group-pannal{
 display: flex;
-}
+position: relative;
+    top: 24px;
+    left: 16px;
+  }
  
 .container .responsive-group-pannal .group {
-  width: 124px;
-  height: 210px;
+  width: 104px;
+  height: 98px;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
@@ -392,6 +413,15 @@ display: flex;
   transition: .3s ease-in;
   width: 100%;
   height: 100%;
+}
+
+.container .responsive-group-pannal .group .name{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 5px;
+  color: #fff;
+  font-weight: bold;
 }
 
   .top-left-pannel{
@@ -430,14 +460,7 @@ background: #4169e170;
   .middle-pannel .mid-pannel-container .create {
     display: none;
   }
-
-  .container .middle-pannel .story-section {
-    width: 73vw;
-  }
-
-  .container .middle-pannel .story-section .stories .story {
-    display: inline;
-  }
+ 
 
   header>.responsive-create .post-top {
     padding-left: 46px;
