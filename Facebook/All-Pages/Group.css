@@ -43,6 +43,9 @@ nav .nav-left>a>img {
     width: 40px;
 }
 
+i.fas.fa-arrow-left{
+    display: none;
+}
 
 .responsive-group-pannal{
     display: none;
