@@ -619,9 +619,24 @@
 }
 
 @media (max-width:880px) {
-  .container .middle-pannel .story-section {
-    width: 62vw;
+  
+  .container .responsive-group-pannal .group {
+    width: 126px;
+    height: 114px;
   }
+
+  .container .responsive-group-pannal .group-fiverr{
+    display: none;
+}
+
+.middle-pannel .mid-pannel-container>h4 {
+  left: -354px;
+}
+
+.active-responsive {
+  width: 10vw;
+}
+
 }
 
 @media (max-width:854px) {
