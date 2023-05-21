@@ -802,70 +802,86 @@
 }
 }
 
-@media (max-width:738px) {
-  nav .nav-middle {
-    width: 100%;
-  }
-
+@media (max-width:740px) {
+nav .nav-middle a {
+    margin: 0px 38px;
 }
-
+}
 @media (max-width:730px) {
-
-  nav .nav-middle a {
-    margin: 0px 25px;
-  }
+  .middle-pannel .mid-pannel-container>h4 {
+    left: -284px;
 }
 
+.container .middle-pannel .mid-pannel-container {
+    left: -68px;
+}
+
+.responsive-group-pannal {
+    left: 10px;
+}
+
+ nav .nav-middle a {
+   margin: 0px 25px;
+ }
+
+}
+@media (max-width:725px) {
+nav .nav-middle a {
+    margin: 0px 34px;
+}
+}
 @media (max-width:720px) {
-  .container .middle-pannel .story-section {
-    width: 77vw;
-  }
+  .middle-pannel .mid-pannel-container>h4 {
+    left: -280px;
 }
 
+
+}
+
+@media (max-width:717px) {
+
+.active-responsive {
+    width: 12vw;
+}
+}
 
 @media (max-width:710px) {
-  nav .nav-middle a {
-    margin: 0px 23px;
-  }
+ .middle-pannel .mid-pannel-container>h4 {
+    left: -274px;
+}
+
+.post {
+    width: 97.5vw;
+    border-radius: 0px;
+}
+
+
+.container .middle-pannel .mid-pannel-container {
+   left: -72px;
+}
+
+.responsive-group-pannal {
+    left: 0px;
+    width: 97.5vw;
+}
+.middle-pannel .mid-pannel-container>h4 {
+  left: -290px;
+}
+
+
 
 }
 
 @media (max-width:700px) {
-  header>.responsive-create .post-bottom {
-    padding-left: 56px;
-    margin-right: 54px;
-  }
-
-  .container .middle-pannel .mid-pannel-container {
-    width: 80vw;
-  }
-
-
-  .container .middle-pannel .story-section {
-    width: 80vw;
-  }
-
-  .post-container-flex {
-    height: 1100px;
-  }
-
-  .story-section {
-    width: 97vw;
-  }
-
-
-  .container .middle-pannel .story-section .stories .story {
-    width: 122px;
-  }
-
-  .container .middle-pannel .story-section .stories .story.create .name {
-    left: 3px;
-  }
-
-
-
+  .middle-pannel .mid-pannel-container>h4 {
+    left: -286px;
 }
-
+}
+@media (max-width: 690px) {
+.Pakista-Freelancers{
+  display: none;
+}
+}
 @media (max-width: 686px) {
   nav .nav-middle a {
     margin: 0px 22px;
