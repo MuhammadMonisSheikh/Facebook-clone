@@ -76,8 +76,11 @@ left: -30px;
 nav .nav-middle .mid:hover, nav .nav-right .rit:hover {
     background: #cdcdcd;
     background-size: cover;
-    border-radius: 10%;
-    transition: .3s ease-in;
+}
+
+nav .nav-middle .mid:hover{
+border-radius: 10%;
+transition: .3s ease-in;
 }
 
 nav .nav-middle a {
@@ -351,7 +354,7 @@ i.fas.fa-angle-down {
 
 .story-heading::after {
     content: "";
-    width: 17vw;
+    width: 15vw;
     height: 3px;
     position: absolute;
     bottom: 4px;
@@ -366,15 +369,14 @@ i.fas.fa-angle-down {
        padding: 18px 79px 18px 79px;
     margin: 0px -33px -1px;
     color: #333;
- border-radius: 10%;
-    transition: .3s ease-in;
 }
 
 
 .reel:hover {
     background: #cdcdcd;
     background-size: cover;
-    
+    border-radius: 10%;
+       transition: .3s ease-in;    
 }
 
 .border-line-2 {
