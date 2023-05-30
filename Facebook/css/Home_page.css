@@ -309,10 +309,10 @@ i.fas.fa-angle-down {
 /* MIDDLE PANNEL*/
 
 .container .middle-pannel {
-    width: 100vw;
+    width: 40vw;
     height: 100%;
     position: relative;
-    left: 26px;
+    left: 424px;
 
 }
 
@@ -506,7 +506,7 @@ i.fas.fa-angle-right {
 
 /* Postes */
 .post {
-    width: 38vw;
+    width: 41vw;
     background-color: #fff;
     border-radius: 10px;
     padding: 10px;
@@ -716,11 +716,13 @@ i.fas.fa-angle-right {
 
 .right-pannel .pages-section .page>.dp,
 .right-pannel .friends-section .friend>.dp {
-    height: 40px;
-    width: 40px;
+    height: 32px;
+    width: 32px;
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;
+    position: relative;
+    left: -7px;
 }
 
 .right-pannel .pages-section .page>.dp>img,
