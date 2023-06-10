@@ -98,11 +98,11 @@ nav .nav-middle a.active {
 
 nav .nav-middle a.active::after {
     content: "";
-    width: 100%;
-    height: 5px;
+    width: 9vw;
+    height: 3px;
     position: absolute;
     bottom: -4px;
-    left: 0;
+    left: -14px;
     background: royalblue;
 }
 
@@ -152,7 +152,7 @@ nav .nav-right a>i {
     background: #F0F2F5;
     overflow: scroll;
     overflow-x: hidden;
-    height: 93vh;
+    height: 92vh;
 }
 
 .responsive-pannel{
@@ -506,7 +506,7 @@ i.fas.fa-angle-right {
 
 /* Postes */
 .post {
-    width: 41vw;
+    width: 38vw;
     background-color: #fff;
     border-radius: 10px;
     padding: 10px;
@@ -635,21 +635,21 @@ i.fas.fa-angle-right {
 
 .post .post-bottom .action>i.fa-video {
     color: red;
-    font-size: 25px;
+    font-size: 22px;
     padding-right: 8px;
 }
 
 
 .post .post-bottom .action>i.fa-image {
     color: green;
-    font-size: 25px;
+    font-size: 22px;
     padding-right: 8px;
 }
 
 
 .post .post-bottom .action>i.fa-smile {
     color: yellow;
-    font-size: 25px;
+    font-size: 22px;
     padding-right: 8px;
 }
 
