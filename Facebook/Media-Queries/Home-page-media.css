@@ -1,3 +1,15 @@
+@media (max-width: 1345px) {
+
+.container .left-pannel {
+     width: 304px;
+}
+
+.container .middle-pannel {
+     left: 416px;
+}
+
+}
+
 @media (max-width: 1340px) {
   nav .nav-middle a.active::after {
     content: "";
@@ -5,14 +17,7 @@
      left: -10px;
     }
 }
-
-@media (max-width: 1330px) {
-
-.container .middle-pannel {
-   
-  left: 406px;
-}
-}
+ 
 
 @media (max-width: 1310px){
 .container .middle-pannel {
@@ -20,40 +25,47 @@
 }
 }
 
+@media (max-width: 1300px){
+.container .middle-pannel {
+    left: 394px;
+}
+
+}
+
 @media (max-width: 1280px){
-.container .middle-pannel .story-section {
-    width: 43vw;
+   
+
+.container .middle-pannel .story-section .stories .story.create .name {
+     left: 4px;
+}
+
+.story-heading::after {
+  content: "";
+  width: 16vw;
 }
 }
 
-@media (max-width: 1250px) {
- 
-  .container .middle-pannel .story-section {
-    width: 44vw;
+@media (max-width: 1260px) {
+  nav .nav-middle a>i {
+    font-size: 19px;
 }
-
- 
-  
-  .container .right-pannel {
-         width: 266px;
-          right: 2px;
-    }
-    
-    .container .right-pannel {
-        width: 245px;
-        right: 1px;
-    }  
 }
      
-  @media (max-width: 1200px) {
+@media (max-width: 1240px) {
 
-    .container .middle-pannel .story-section {
-      width: 46vw;
-  }
-    
-
+.container .middle-pannel {
+  left: 390px;
 }
-   
+}
+
+@media (max-width: 1210px) {
+
+.container .middle-pannel {
+  left: 368px;
+}
+}
+
+ 
   @media (max-width: 1150px) {
     .container .middle-pannel .story-section {
       width: 47vw;
