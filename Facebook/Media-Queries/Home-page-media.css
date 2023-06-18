@@ -363,6 +363,13 @@ nav .nav-middle a.active::after {
 }
 } 
 
+@media (max-width:790px) {
+
+.story-heading::after {
+     left: -40px;
+}
+}
+
 @media (max-width:774px) {
  
 nav .nav-middle a {
@@ -383,11 +390,10 @@ nav .nav-middle a.active::after {
 .responsive-create{
       display: inline;
 }
-
+ 
 .container {
   height: 60vh;
 }
-
 .middle-pannel .mid-pannel-container  .create{
     display: none;
   }
@@ -423,7 +429,7 @@ header> .responsive-create .post-bottom {
   display: flex;
 }
 nav .nav-middle a {
-   margin: 0px 28px;
+   margin: 0px 23px;
 }
 
 header> .responsive-header .nav-responsive-right{
@@ -481,157 +487,125 @@ margin: 0 16px;
 nav .nav-left>form{
 display: none;
 }
- 
-  }
-  
-  @media (max-width:738px) {
-    nav .nav-middle {
-       width: 100%;
-  }
-  
-}
 
-@media (max-width:730px) {
+.post{
+  width: 73vw;
+}
+ 
+
+  nav .nav-middle a.active::after {
+     bottom: -1px;
+  }
+  }
+
+  @media (max-width:744px) {
 
 nav .nav-middle a {
-  margin: 0px 25px;
-}
-}
-@media (max-width:720px) {
-.container .middle-pannel .story-section {
-  width: 77vw;
-}
-}
-
-
-  @media (max-width:710px) {
-    nav .nav-middle a {
-      margin: 0px 23px;
-  }
-    
-}
-
-  @media (max-width:700px) {
-    header> .responsive-create .post-bottom {
-      padding-left: 56px;
-      margin-right: 54px;
-     }
- 
-.container .middle-pannel .mid-pannel-container {
-  width: 80vw;
-}
-
-
-.container .middle-pannel .story-section {
-  width: 80vw;
-}
-.post-container-flex {
-    height: 1100px;
-}
-
-.story-section {
-  width: 97vw;
-}
- 
-
-.container .middle-pannel .story-section .stories .story { 
-  width: 122px; 
-}
- 
-.container .middle-pannel .story-section .stories .story.create .name {
-  left: 3px;
-}
-
-
-
-}
- 
-@media (max-width: 686px){
-nav .nav-middle a {
-    margin: 0px 22px;
-}
-.container .middle-pannel .story-section {
-  width: 90vw;
-}
-.container .middle-pannel .story-section .stories .story {
-  width: 140px;
-}
-
-.container .middle-pannel .story-section .stories .story.create .name {
-  left: 13px;
-}
-
-.post {
-  width: 615px;
-}
-
-} 
-
-  @media (max-width:680px) {
-     
-    header> .responsive-create .post-bottom {
-      padding-left: 33px;
-    }
-
-     
-  nav .nav-middle a {
-    margin: 0px 21px;
-}
-  .container .middle-pannel .mid-pannel-container {
-    width: 84vw;
-}
-.container .middle-pannel .story-section {
-  width: 92vw;
-}
-.story-heading::after {
-  width: 34vw;
-}
-
-.post {
-  width: 92vw;
-}
-}
- 
-@media (max-width: 675px){
-  nav .nav-middle a {
     margin: 0px 20px;
 }
+  }
+ 
+ 
+@media (max-width:720px) {
+ 
+.story-heading::after {
+    left: -55px;
+    width: 36vw;
 }
 
-@media (max-width:650px) {
 
-nav .nav-middle a {
-  margin: 0px 23px;
-}
 }
 
+ 
 
-  @media (max-width:644px) {
+  @media (max-width:700px) {
+     
   nav .nav-middle a {
-    margin: 0px 22px;
+    margin: 0px 19px;
 }
 
 .container .middle-pannel {
-  padding-left: 42px;
+  left: 200px;
 }
+
 .container .middle-pannel .story-section {
-  width: 98vw;
-}
-.post {
-  width: 99vw;
-}
+  width: 80vw;
 }
 
-  @media (max-width:633px) {
-    nav .nav-middle a {
-      margin: 0px 20px;
-  }
+.post{
+  width: 80vw;
 }
 
-@media (max-width: 620px){
+}
+ 
+@media (max-width: 688px){
+ 
   nav .nav-middle a {
-    margin: 0px 18px;
+    margin: 0px 16px;
 }
+} 
+  
+
+@media (max-width:650px) {
+  nav .nav-middle a.active::after {
+    left: -8px;
+  }
+  .container .middle-pannel {
+    left: 188px;
+}
+
+.container .middle-pannel .story-section {
+  width: 100vw;
+}
+
+.container .middle-pannel .story-section .stories .story {
+  width: 145px;
+}
+
+.container .middle-pannel .story-section .stories .story.create .name {
+  left: 25px;
+}
+
+
+.post{
+  width: 100vw;
+}
+
+.story-heading::after {
+  left: -75px;
+  width: 48vw;
+}
+}
+
+
+  @media (max-width:646px) {
+    nav .nav-middle a {
+      margin: 0px 12px;
+  }
+
+
+}
+
+  
+@media (max-width: 620px){
+ 
+  .container {
+    height: 61vh;
+}
+
+  .container .middle-pannel .story-section .stories .story {
+    width: 135px;
+}
+i.fas.fa-ellipsis-h {
+  margin-right: 14px;
+}
+
+.container .middle-pannel {
+  left: 180px;
+}
+
+
+
 }
 
 @media (max-width:600px) {
