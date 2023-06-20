@@ -589,10 +589,7 @@ nav .nav-middle a {
 
   
 @media (max-width: 620px){
- 
-  .container {
-    height: 61vh;
-}
+     
 
   .container .middle-pannel .story-section .stories .story {
     width: 135px;
@@ -612,17 +609,38 @@ i.fas.fa-ellipsis-h {
 @media (max-width:600px) {
 
 
-  nav .nav-middle a>i {
-    font-size: 20px;
-} 
- 
-.story-heading::after {
-  width: 38vw;
+
+  header> .responsive-create .post-bottom {
+    padding-left: 0px;
+    margin-right: -4px;
 }
 
-.container .middle-pannel .story-section .stories .story.create .name {
-  left: 10px;
+.post .post-top>input {
+  width: 67vw;
 }
+
+  .post.create.responsive-create {
+    display: flex;
+}
+
+  .border-line-3 {
+    display: none;
+}
+
+
+i.fas.fa-video {
+  display: none;
+}
+
+i.fas.fa-smile {
+  display: none;
+}
+.post
+
+  span {
+    display: none;
+}
+
 
 
 }
