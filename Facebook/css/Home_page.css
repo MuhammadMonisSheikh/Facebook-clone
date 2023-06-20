@@ -33,6 +33,11 @@ nav {
     position: static;
 }
 
+
+.responsive-image{
+    display: none;
+}
+
 nav .nav-left, nav .nav-right {
     display: flex;
     align-items: center;
