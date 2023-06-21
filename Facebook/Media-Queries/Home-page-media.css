@@ -749,9 +749,21 @@ margin: 34px;
 .container .middle-pannel .story-section .stories .story {
   width: 116px;
 }
+
+
 }
 
-  @media (max-width:530px) { 
+
+@media (max-width:540px) {
+
+  nav .nav-middle a.active::after {
+    left: -2px;
+}
+}
+
+
+
+@media (max-width:530px) { 
     .container .middle-pannel {
       left: 154px;
   }
@@ -814,139 +826,400 @@ nav .nav-middle a {
   
 }
 
-@media (max-width:480px) {
- nav .nav-middle a {
-    margin: 0px 11px;
+
+
+@media (max-width:490px) {
+ 
+ header> .responsive-create .post-top {
+   width: 94vw;
+}
+ 
+  nav .nav-middle a {
+    margin: 0px 10px;
 }
 
-
-
-
-header> .responsive-create .post-bottom {
-  padding-left: 0px;
+nav .nav-middle a.active::after {
+    left: -11px;
+    width: 16vw;
 }
 
-header> .responsive-create .post-top {
-  padding-left: 8px;
-  width: 97vw;
-}
 .container {
-  height: 47vh;
+    height: 56.5vh;
+}
+
+.story-heading::after {
+     left: -33px;
 }
 
 .container .middle-pannel {
-    padding-left: 50px;
+    left: 142px;
 }
 
-.container .middle-pannel .story-section {
-    width: 99vw;
- }
 
 
-.container .middle-pannel .story-section .stories .story.create .name {
-    left: 0px;
-}
   }   
-  @media (max-width:450px) {
- 
-    nav .nav-middle a {
-      margin: 0px 9px;
-  }
-.stories {
-  padding-left: 0px !important;
-}
-.story-heading::after {
-   left: -28px;
-}
-.container .middle-pannel .story-section .stories .story.create .name {
-  left: 1px;
-  font-size: 14px;
-}
+
+@media (max-width: 480px){
 
 
-
-
-.post .post-bottom .action>i.fa-video {
-     font-size: 16px;
-}
-
-.post .post-bottom .action>i.fa-image {
-     font-size: 16px;
-}
-
-.post .post-bottom .action>i.fa-smile {
-     font-size: 16px;
-}
-
-.post .post-bottom .action>span {
-  font-size: 14px;
-}
-
-}
- 
-@media (max-width: 380px) {
-  .container .middle-pannel .story-section .stories .responsive-story{
-    display: none;
-  }
- 
   .container {
-      height: 49vh;
+    height: 36.5vh;
+}
+
+
+
+  .container .middle-pannel {
+    left: 138px;
 }
 
 nav .nav-middle a {
-    margin: 0px 4px;
-}
-.story-heading::after {
-  left: -12px;
+    margin: 0px 9px;
 }
 
-.post .post-bottom .action>span {
-  font-size: 12px;
+}
+
+@media (max-width: 470px){
+.container {
+    height: 57vh;
+}
+
+nav .nav-middle a {
+    margin: 0px 8px;
+}
+
+nav .nav-right a {
+     margin: 0 16px;
 }
 
 .container .middle-pannel {
-  padding-left: 40px;
+  left: 135px;
 }
-.container .middle-pannel .story-section .stories .story.create .name {
-  left: -3px;
-  font-size: 12px;
+
+}
+
+@media (max-width: 466px){
+
+.container {
+    height: 57.5vh;
+}
+
+nav .nav-middle a {
+  margin: 0px 7px;
 }
 }
+
+
+  @media (max-width:450px) {
   
-  @media (max-width: 360px){
     nav .nav-middle a {
-      margin: 0px 2px;
+      margin: 0px 5px;
+  }
+
+  .container {
+    height: 56.5vh;
 }
-  
+
+.container .middle-pannel {
+  left: 130px;
+}
+
 .container .middle-pannel .story-section .stories .story.create .name {
-  left: 9px;
-}
-    .post .post-bottom .action>i.fa-video {
-    font-size: 10px;
- }
-
-.post .post-bottom .action>i.fa-image {
-    font-size: 10px;
-
-}
-
-.post .post-bottom .action>i.fa-smile {
-    font-size: 10px;
+  left: 1px;
 }
 
 }
-@media (max-width: 320px){
-  nav .nav-middle a {
-    margin: 0px 0px;
-}
-.container .middle-pannel .story-section .stories .story.create .name {
-  left: 3px;
-}
+
+@media (max-width:440px) {
+
+.container .middle-pannel .story-section {
+  width: 103vw;
+} 
+.container .middle-pannel .story-section .stories .story {
+   height: 42vw;
+   width: 96px;
+} 
 
 
-.post .post-bottom .action>span {
-  font-size: 10px;
+
+.post {
+  width: 103vw;
 }
 
 }
  
+@media (max-width: 430px){
+nav .nav-middle a {
+    margin: 0px 4px;
+}
+
+
+nav .nav-middle a.active::after {
+  left: -6px;
+}
+
+.container .middle-pannel .story-section .stories .story {
+  height: 48vw;
+  width: 120px;
+  position: relative;
+  left: 10px;
+  margin: 0px 9px;
+}
+
+.container .middle-pannel .story-section .stories .story.create .name {
+  left: 14px;
+}
+
+
+.story.responsive-story {
+  display: none !important;
+}
+
+.story-heading::after {
+  left: -23px;
+}
+
+.arrow-right {
+   left: 8px;
+}
+
+
+
+}
+
+@media (max-width: 420px){
+  
+  nav .nav-middle a {
+    margin: 0px 3px;
+  }
+
+.container .middle-pannel .story-section .stories .story {
+     left: 0px;
+}
+
+.reel{
+  padding-right: 50px;
+  padding-left: 60px;
+}
+
+.arrow-right {
+  left: -4px;
+}
+
+
+
+}
+
+@media (max-width: 414px){
+.container {
+    height: 34.5vh;
+}
+}
+
+@media (max-width: 412px){
+
+.container {
+  height: 43.5vh;
+}
+}
+
+@media (max-width: 410px){
+.container .middle-pannel .story-section .stories .story {
+    left: -7px;
+}
+nav .nav-middle a {
+  margin: 0px 2px;
+}
+
+.story-heading::after {
+  left: -35px;
+  width: 48vw;
+}
+}
+
+@media (max-width: 400px){
+
+  .container {
+    height: 57vh;
+}
+
+  .arrow-right {
+    left: -3px;
+}
+
+.container .middle-pannel {
+  left: 120px;
+}
+
+.container .middle-pannel .story-section .stories .story {
+  left: 0px;
+}
+
+}
+
+@media (max-width: 393px) {
+
+.container {
+  height: 40vh;
+}
+}
+
+@media (max-width: 390px) {
+  
+  nav .nav-middle a {
+    margin: 0px 0px;
+}
+
+.container .middle-pannel {
+  left: 115px;
+}
+
+nav .nav-middle a.active::after {
+  left: -1px;
+  width: 14vw;
+}
+
+.container .middle-pannel .story-section .stories .story.create .name {
+  left: 7px;
+}
+
+
+
+}
+
+@media (max-width: 384px) {
+
+.container {
+  height: 50vh;
+}
+}
+@media (max-width: 380px) {
+
+nav .nav-middle a.active::after {
+  left: -1px;
+  width: 15vw;
+}
+
+.reel {
+   padding-left: 48px;
+}
+
+nav .nav-middle a {
+  margin: 0px -1px;
+}
+
+}
+
+@media (max-width: 375px){
+.container {
+    height: 47vh;
+}
+}
+
+@media (max-width: 360px){
+    
+    .container {
+      height: 42vh;
+    }
+    
+    .container .middle-pannel .story-section .stories .story {
+      left: 1px;
+      margin: 0px 4px;
+height: 40vh;
+}
+
+.post .post-top>input {
+   font-size: 12px;
+}
+
+
+  nav .nav-middle {
+    left: -5px;
+}
+
+nav .nav-middle a.active::after {
+  left: 2px;
+}
+
+.container .middle-pannel {
+  left: 106px;
+}
+
+.story-heading::after {
+  left: -30px;
+  width: 52vw;
+}
+
+.reel {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+}
+
+@media (max-width: 353px){
+.container {
+    height: 41vh;
+}
+}
+@media (max-width: 340px){
+
+.container .middle-pannel .story-section .story-reel {
+   left: -10px;
+   position: relative;
+}
+
+.arrow-right {
+  left: 7px;
+}
+
+i.fas.fa-angle-right {
+   height: 40px;
+  width: 40px;
+}
+
+.container .middle-pannel .story-section .stories .story {
+  left: -4px;
+}
+
+.post .post-top>input {
+  font-size: 10px;
+}
+
+nav .nav-middle a>i {
+  font-size: 17px;
+}
+
+nav .nav-right a {
+  margin: 0 0px;
+}
+
+nav .nav-left>img {
+  width: 100px;
+}
+
+
+
+}
+@media (max-width: 320px){
+ 
+  .container {
+    height: 56vh;
+}
+
+
+ 
+  nav .nav-middle a {
+    margin: 0px -2px;
+}
+
+
+.container .middle-pannel {
+    left: 101px;
+}
+
+.arrow-right {
+  left: 8px;
+}
+
+}
+  
