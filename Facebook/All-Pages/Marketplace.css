@@ -102,7 +102,7 @@ nav .nav-middle a.active {
 
 nav .nav-middle a.active::after {
     content: "";
-    width: 9vw;
+    width: 9.5vw;
     height: 3px;
     position: absolute;
     bottom: -4px;
@@ -256,6 +256,7 @@ cursor: pointer;
 }
 
 
+
 .container .left-pannel i.fas.fa-tag {
     text-decoration: none;
     color: #333;
@@ -269,6 +270,260 @@ cursor: pointer;
     margin: 0 5px;
 cursor: pointer;
 }
+
+
+.container .left-pannel i.fas.fa-car {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #eee;
+    display: grid;
+    place-items: center;
+    margin: 0 5px;
+cursor: pointer;
+}
+
+
+.container .left-pannel i.fas.fa-house {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #eee;
+    display: grid;
+    place-items: center;
+    margin: 0 5px;
+cursor: pointer;
+}
+
+
+.container .left-pannel i.fas.fa-t-shirt {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #eee;
+    display: grid;
+    place-items: center;
+    margin: 0 5px;
+cursor: pointer;
+}
+
+
+.container .left-pannel i.fas.fa-t-shirt {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #eee;
+    display: grid;
+    place-items: center;
+    margin: 0 5px;
+cursor: pointer;
+}
+
+
+.container .left-pannel i.fas.fa-mobile {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #eee;
+    display: grid;
+    place-items: center;
+    margin: 0 5px;
+cursor: pointer;
+}
+
+
+
+.container .left-pannel i.fas.fa-video-camera{
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #eee;
+    display: grid;
+    place-items: center;
+    margin: 0 5px;
+cursor: pointer;
+}
+
+
+.container .left-pannel i.fas.fa-heart {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #eee;
+    display: grid;
+    place-items: center;
+    margin: 0 5px;
+cursor: pointer;
+}
+
+
+.container .left-pannel i.fas.fa-user-tag {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #eee;
+    display: grid;
+    place-items: center;
+    margin: 0 5px;
+cursor: pointer;
+}
+
+
+.container .left-pannel i.fas.fa-gavel {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #eee;
+    display: grid;
+    place-items: center;
+    margin: 0 5px;
+cursor: pointer;
+}
+
+
+.container .left-pannel i.fas.fa-pen {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #eee;
+    display: grid;
+    place-items: center;
+    margin: 0 5px;
+cursor: pointer;
+}
+
+
+.container .left-pannel i.fas.fa-home {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #eee;
+    display: grid;
+    place-items: center;
+    margin: 0 5px;
+cursor: pointer;
+}
+
+
+
+.container .left-pannel i.fas.fa-screwdriver-wrench {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #eee;
+    display: grid;
+    place-items: center;
+    margin: 0 5px;
+cursor: pointer;
+}
+
+.container .left-pannel i.fas.fa-home-lg {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #eee;
+    display: grid;
+    place-items: center;
+    margin: 0 5px;
+cursor: pointer;
+}
+
+.container .left-pannel i.fas.fa-guitar {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #eee;
+    display: grid;
+    place-items: center;
+    margin: 0 5px;
+cursor: pointer;
+}
+
+.container .left-pannel i.fas.fa-paw {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #eee;
+    display: grid;
+    place-items: center;
+    margin: 0 5px;
+cursor: pointer;
+}
+
+.container .left-pannel i.fas.fa-person-walking {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #eee;
+    display: grid;
+    place-items: center;
+    margin: 0 5px;
+cursor: pointer;
+}
+
+.container .left-pannel i.fas.fa-gamepad{
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #eee;
+    display: grid;
+    place-items: center;
+    margin: 0 5px;
+cursor: pointer;
+}
+
+
 
 .container .left-pannel .top-left-pannel>form{
      display: flex;
@@ -296,7 +551,12 @@ cursor: pointer;
     border-radius: 10px;
 }
 
+.container .left-pannel ul li a.filter{
+    color: #1876F2;
+text-decoration: none;
+ font-weight: bold;
 
+}
 
 i.fas.fa-angle-right{
     position: relative;
@@ -437,7 +697,7 @@ justify-content: space-between;
 .heading-shortcut3 {
     font-size: 17px;
     font-weight: 600;
-    color: #75777B;
+    color: #000;
      margin-left: 13px;
      margin-top: 4px;
 }
@@ -478,7 +738,7 @@ i.fas.fa-inbox{
     background: #eee;
     display: grid;
     place-items: center;
-    margin: 0px -1px  0px 1px;
+    margin: 0px -1px  0px 5px;
 }
 
 
@@ -565,7 +825,7 @@ i.fas.fa-inbox{
 .middle-pannel .mid-pannel-container>h4 {
     position: relative;
     left: -208px;
-    color: #65676B;
+    color: #000;
 font-size: 14px;
 }
  
