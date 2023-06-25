@@ -5,19 +5,19 @@
     font-family: sans-serif;
 }
 
-body  {
-overflow: hidden;
+body {
+    overflow: hidden;
 }
- 
-header{
+
+header {
     background-color: #fff;
 }
 
-.responsive-create{
+.responsive-create {
     display: none;
 }
 
-.responsive-header{
+.responsive-header {
     display: none;
 }
 
@@ -33,7 +33,7 @@ nav {
 }
 
 
-.responsive-image{
+.responsive-image {
     display: none;
 }
 
@@ -47,7 +47,7 @@ nav .nav-left>img {
     width: 40px;
 }
 
-.Logo1{
+.Logo1 {
     display: none;
 }
 
@@ -74,7 +74,7 @@ nav .nav-middle {
     display: flex;
     align-items: flex-end;
     position: relative;
-left: -30px;
+    left: -30px;
 }
 
 nav .nav-middle .mid:hover, nav .nav-right .rit:hover {
@@ -82,18 +82,18 @@ nav .nav-middle .mid:hover, nav .nav-right .rit:hover {
     background-size: cover;
 }
 
-nav .nav-middle .mid:hover{
-border-radius: 10%;
-transition: .3s ease-in;
+nav .nav-middle .mid:hover {
+    border-radius: 10%;
+    transition: .3s ease-in;
 }
 
 nav .nav-middle a {
     text-decoration: none;
     color: #333;
-    padding:10px 34px 15px 34px;
+    padding: 10px 34px 15px 34px;
     margin: 0px 10px 4px;
 }
- 
+
 nav .nav-middle a.active {
     color: royalblue;
     position: relative;
@@ -125,8 +125,8 @@ nav .nav-right .profile, .container .left-pannel .profile {
     cursor: pointer;
 }
 
-nav .nav-right>form{
-display: none;
+nav .nav-right>form {
+    display: none;
 }
 
 nav .nav-right a {
@@ -142,10 +142,10 @@ nav .nav-right a {
     margin: 0 5px;
 }
 
-nav .nav-right> .responsive-rit4 {
+nav .nav-right>.responsive-rit4 {
     display: none;
-    
-    }
+
+}
 
 nav .nav-right a>i {
     font-size: 16px;
@@ -160,8 +160,8 @@ nav .nav-right a>i {
     height: 92vh;
 }
 
-.responsive-pannel{
- display: none;
+.responsive-pannel {
+    display: none;
 }
 
 .container .left-pannel {
@@ -212,8 +212,8 @@ nav .nav-right a>i {
 .heading-section1 {
     display: flex;
     justify-content: space-between;
-align-items: baseline;
-font-size: 25px;
+    align-items: baseline;
+    font-size: 25px;
     padding: 10px 9px 6px 10px;
 }
 
@@ -230,7 +230,7 @@ font-size: 25px;
     display: grid;
     place-items: center;
     margin: 0 5px;
-cursor: pointer;
+    cursor: pointer;
 }
 
 
@@ -252,7 +252,7 @@ cursor: pointer;
     display: grid;
     place-items: center;
     margin: 0 5px;
-cursor: pointer;
+    cursor: pointer;
 }
 
 
@@ -268,7 +268,7 @@ cursor: pointer;
     display: grid;
     place-items: center;
     margin: 0 5px;
-cursor: pointer;
+    cursor: pointer;
 }
 
 
@@ -283,7 +283,7 @@ cursor: pointer;
     display: grid;
     place-items: center;
     margin: 0 5px;
-cursor: pointer;
+    cursor: pointer;
 }
 
 
@@ -298,7 +298,7 @@ cursor: pointer;
     display: grid;
     place-items: center;
     margin: 0 5px;
-cursor: pointer;
+    cursor: pointer;
 }
 
 
@@ -313,7 +313,7 @@ cursor: pointer;
     display: grid;
     place-items: center;
     margin: 0 5px;
-cursor: pointer;
+    cursor: pointer;
 }
 
 
@@ -328,7 +328,7 @@ cursor: pointer;
     display: grid;
     place-items: center;
     margin: 0 5px;
-cursor: pointer;
+    cursor: pointer;
 }
 
 
@@ -343,12 +343,12 @@ cursor: pointer;
     display: grid;
     place-items: center;
     margin: 0 5px;
-cursor: pointer;
+    cursor: pointer;
 }
 
 
 
-.container .left-pannel i.fas.fa-video-camera{
+.container .left-pannel i.fas.fa-video-camera {
     text-decoration: none;
     color: #333;
     font-size: 1rem;
@@ -359,7 +359,7 @@ cursor: pointer;
     display: grid;
     place-items: center;
     margin: 0 5px;
-cursor: pointer;
+    cursor: pointer;
 }
 
 
@@ -374,7 +374,7 @@ cursor: pointer;
     display: grid;
     place-items: center;
     margin: 0 5px;
-cursor: pointer;
+    cursor: pointer;
 }
 
 
@@ -389,7 +389,7 @@ cursor: pointer;
     display: grid;
     place-items: center;
     margin: 0 5px;
-cursor: pointer;
+    cursor: pointer;
 }
 
 
@@ -404,7 +404,7 @@ cursor: pointer;
     display: grid;
     place-items: center;
     margin: 0 5px;
-cursor: pointer;
+    cursor: pointer;
 }
 
 
@@ -419,7 +419,7 @@ cursor: pointer;
     display: grid;
     place-items: center;
     margin: 0 5px;
-cursor: pointer;
+    cursor: pointer;
 }
 
 
@@ -434,7 +434,7 @@ cursor: pointer;
     display: grid;
     place-items: center;
     margin: 0 5px;
-cursor: pointer;
+    cursor: pointer;
 }
 
 
@@ -450,7 +450,7 @@ cursor: pointer;
     display: grid;
     place-items: center;
     margin: 0 5px;
-cursor: pointer;
+    cursor: pointer;
 }
 
 .container .left-pannel i.fas.fa-home-lg {
@@ -464,7 +464,7 @@ cursor: pointer;
     display: grid;
     place-items: center;
     margin: 0 5px;
-cursor: pointer;
+    cursor: pointer;
 }
 
 .container .left-pannel i.fas.fa-guitar {
@@ -478,7 +478,7 @@ cursor: pointer;
     display: grid;
     place-items: center;
     margin: 0 5px;
-cursor: pointer;
+    cursor: pointer;
 }
 
 .container .left-pannel i.fas.fa-paw {
@@ -492,7 +492,7 @@ cursor: pointer;
     display: grid;
     place-items: center;
     margin: 0 5px;
-cursor: pointer;
+    cursor: pointer;
 }
 
 .container .left-pannel i.fas.fa-person-walking {
@@ -506,10 +506,10 @@ cursor: pointer;
     display: grid;
     place-items: center;
     margin: 0 5px;
-cursor: pointer;
+    cursor: pointer;
 }
 
-.container .left-pannel i.fas.fa-gamepad{
+.container .left-pannel i.fas.fa-gamepad {
     text-decoration: none;
     color: #333;
     font-size: 1rem;
@@ -520,17 +520,17 @@ cursor: pointer;
     display: grid;
     place-items: center;
     margin: 0 5px;
-cursor: pointer;
+    cursor: pointer;
 }
 
 
 
-.container .left-pannel .top-left-pannel>form{
-     display: flex;
+.container .left-pannel .top-left-pannel>form {
+    display: flex;
 }
 
 .container .left-pannel .top-left-pannel>form>i.fas.fa-magnifying-glass {
-    
+
     position: relative;
     left: 20px;
     bottom: -13px;
@@ -551,14 +551,14 @@ cursor: pointer;
     border-radius: 10px;
 }
 
-.container .left-pannel ul li a.filter{
+.container .left-pannel ul li a.filter {
     color: #1876F2;
-text-decoration: none;
- font-weight: bold;
+    text-decoration: none;
+    font-weight: bold;
 
 }
 
-i.fas.fa-angle-right{
+i.fas.fa-angle-right {
     position: relative;
     text-decoration: none;
     color: #333;
@@ -566,14 +566,14 @@ i.fas.fa-angle-right{
     height: 40px;
     width: 40px;
     border-radius: 50%;
-   
+
     display: grid;
-    place-items: center; 
+    place-items: center;
     left: 175px;
 }
 
 
-.container .left-pannel  .fa-bell{
+.container .left-pannel .fa-bell {
     text-decoration: none;
     color: #333;
     font-size: 1rem;
@@ -598,7 +598,7 @@ i.fas.fa-angle-right{
     color: black;
 }
 
-.active2{
+.active2 {
     background: #ddd !important;
 }
 
@@ -612,7 +612,7 @@ i.fas.fa-angle-right{
     margin-left: 10px;
 }
 
- 
+
 
 img.shop {
     width: 39px;
@@ -631,45 +631,45 @@ i.fas.fa-angle-down {
     place-items: center;
 }
 
-i.angle-down1{
+i.angle-down1 {
     position: relative;
-    left:130px;
+    left: 130px;
 }
 
-i.angle-down2{
+i.angle-down2 {
     position: relative;
-    left:118px;
+    left: 118px;
 }
 
 
-i.angle-down3{
+i.angle-down3 {
     position: relative;
-    left:124px;
+    left: 124px;
 }
 
-i.angle-down4{
+i.angle-down4 {
     position: relative;
-    left:142px;
+    left: 142px;
 }
 
-i.angle-down5{
+i.angle-down5 {
     position: relative;
-    left:177px;
+    left: 177px;
 }
 
-i.angle-down6{
+i.angle-down6 {
     position: relative;
-    left:86px;
+    left: 86px;
 }
 
-i.angle-down7{
+i.angle-down7 {
     position: relative;
-    left:54px;
+    left: 54px;
 }
 
-i.angle-down8{
+i.angle-down8 {
     position: relative;
-    left:67px;
+    left: 67px;
 }
 
 .border-line {
@@ -689,32 +689,32 @@ i.angle-down8{
     margin-left: 13px;
 }
 
-.shortcut3{
-display: flex;
-justify-content: space-between;
+.shortcut3 {
+    display: flex;
+    justify-content: space-between;
 }
 
 .heading-shortcut3 {
     font-size: 17px;
     font-weight: 600;
     color: #000;
-     margin-left: 13px;
-     margin-top: 4px;
+    margin-left: 13px;
+    margin-top: 4px;
 }
 
-.see-all{
+.see-all {
     color: #3B80DF;
     font-size: 14px;
     padding: 7px;
     cursor: pointer;
 }
 
-.see-all:hover{
+.see-all:hover {
     background: #cdcdcd;
     background-size: cover;
 }
 
-.active2 i.fas.fa-shop{
+.active2 i.fas.fa-shop {
     text-decoration: none;
     color: #fff;
     font-size: 1rem;
@@ -724,11 +724,11 @@ justify-content: space-between;
     background: #1877F2;
     display: grid;
     place-items: center;
-    margin: 0px -1px  0px 1px;
+    margin: 0px -1px 0px 1px;
 }
 
 
-i.fas.fa-inbox{
+i.fas.fa-inbox {
     text-decoration: none;
     color: #333;
     font-size: 1rem;
@@ -738,11 +738,11 @@ i.fas.fa-inbox{
     background: #eee;
     display: grid;
     place-items: center;
-    margin: 0px -1px  0px 5px;
+    margin: 0px -1px 0px 5px;
 }
 
 
-.container .left-pannel ul li i.fas.fa-users{
+.container .left-pannel ul li i.fas.fa-users {
     text-decoration: none;
     color: #333;
     font-size: 1rem;
@@ -752,7 +752,7 @@ i.fas.fa-inbox{
     background: #eee;
     display: grid;
     place-items: center;
-    margin: 0px -1px  0px 1px;
+    margin: 0px -1px 0px 1px;
 }
 
 .container .left-pannel ul li .tech-work {
@@ -803,62 +803,69 @@ i.fas.fa-inbox{
     text-decoration: underline;
 
 }
+
 .button {
-     padding-left: 12px;
-    }
-    button{
-        display: flex;
-        background-color: #E7F3FF;
-        height: 36px;
-        width :22vw;
-        align-items: center;
-        justify-content: center;
-        color: #385898;
-        cursor: pointer;
-        border:solid 0px #E7F3FF;
-        border-radius: 2px;
-}
-button:hover{
-background-color: #ddd;
+    padding-left: 12px;
 }
 
-button:visited{
+button {
+    display: flex;
+    background-color: #E7F3FF;
+    height: 36px;
+    width: 22vw;
+    align-items: center;
+    justify-content: center;
+    color: #385898;
+    cursor: pointer;
+    border: solid 0px #E7F3FF;
+    border-radius: 2px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+button:visited {
     background-color: #acd0f5;
 }
+
 i.fas.fa-plus {
     width: 2vw;
 }
 
-  
+
 /* MIDDLE PANNEL*/
 
 .container .middle-pannel {
     width: 80%;
     height: 100%;
-position: relative;
-left: 424px;
-top: 50px;
+    position: relative;
+    left: 370px;
+    top: 7px;
 }
 
- 
- 
-.container .middle-pannel .mid-pannel-container .middle-heading{
-    display: flex; 
+
+
+.container .middle-pannel .mid-pannel-container .middle-heading {
+    display: flex;
 }
 
-.container .middle-pannel  .middle-heading h4.heading-mid {
+.container .middle-pannel .middle-heading h4.heading-mid {
     font-size: 20px;
-position: relative;
+    position: relative;
+    left: 6px;
+    top: 18px;
 }
- 
-a.location{
+
+a.location {
     text-decoration: none;
-position: relative;
-right: -844px;
+    position: relative;
+    right: -790px;
+    font-size: 15px;
 }
 
 
-a.location:hover{
+a.location:hover {
     text-decoration: underline;
 }
 
@@ -873,16 +880,46 @@ a.location:hover{
     display: flex;
     width: 100%;
     height: 385px;
+    flex-wrap: wrap;
 }
 
 .product-mainRowItem {
-    width: 23.5%;
+    width: 28%;
     height: 100%;
-    margin-left: 25px;
+    margin-left: 9px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .product-mainRowItem-Imgbox {
     width: 100%;
     height: 266px;
+}
+
+.product-mainRowItem-ImgboxImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-mainRowItem-price {
+    font-size: 17px;
+    font-weight: 600;
+    color: #000;
+    margin-top: 15px;
+}
+
+.product-mainRowItem-Details {
+    font-size: 15px;
+    margin-top: 6px;
+    font-weight: 400;
+    color: #000;
+}
+
+.product-mainRowItem-location {
+    font-size: 13px;
+    font-weight: 400;
+    color: #65676B;
+    margin-top: 6px;
 }
