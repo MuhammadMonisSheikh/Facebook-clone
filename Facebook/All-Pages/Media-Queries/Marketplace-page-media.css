@@ -19,26 +19,84 @@ a.location {
 
 @media (max-width: 1340px) { 
 
+  nav .nav-middle {
+     left: 42px;
+}
+
+ 
+  a.location {
+    right: -762px;
+}
+
+
+
   }
-  
+
   @media (max-width: 1320px) {
-  
-     
+
+    .container .left-pannel .top-left-pannel>form>input {
+       width: 24vw;
+    }
+
+  button {
+     width: 24vw;
+     padding-right: 14px;
   }
-  
-  @media (max-width: 1313px) {
+
+  a.location {
+    right: -758px;
+}
+ 
+  }
+
+  @media (max-width: 1310px){
+
+    .container {
+       height: 91vh;
+  }
+
    
+
+
+    a.location {
+    right: -754px;
+}
+}
+     
+  @media (max-width: 1300px) {
+  
+    button {
+      width: 24.4vw;
+      padding-right: 10px;
   }
   
-  @media (max-width: 1313px) {
   
+
+    a.location {
+      right: -744px;
+  }
      
   }
   
   @media (max-width: 1295px) {
-    
-  }
   
+    a.location {
+      right: -716px;
+  }
+
+  .product {
+    width: 97%;
+  }
+
+  }
+ 
+  @media (max-width: 1290px) {
+  
+  a.location {
+    right: -712px;
+}
+}
+
   @media (max-width: 1280px) {
    }
   

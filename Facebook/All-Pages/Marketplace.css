@@ -51,30 +51,30 @@ nav .nav-left>img {
     display: none;
 }
 
-nav .nav-left>form>input {
-    height: 40px;
-    padding: 5px 36px;
-    border: none;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    outline: none;
-    background-color: #eee;
-    margin-left: -15px;
-    width: 19.5vw;
+nav .nav-left>form {
+    display: inline;
+    margin: 0 16px;
 }
 
-nav .nav-left>form>i.fas.fa-magnifying-glass {
-    left: 15px;
-    position: relative;
+nav .nav-left>form>input {
+    height: 40px;
+    width: 40px;
+    outline: none;
+    border: none;
+    padding: 20px;
+    color: #e4e6eb;
+    background-color: #eee;
+    font-size: 15px;
+    border-radius: 25px;
+    margin-right: -34px;
 }
+ 
 
 nav .nav-middle {
     display: flex;
     align-items: flex-end;
     position: relative;
-    left: -30px;
+    left: 20px;
 }
 
 nav .nav-middle .mid:hover, nav .nav-right .rit:hover {
@@ -198,7 +198,7 @@ nav .nav-right a>i {
 .container .left-pannel .top-left-pannel>form>input {
     height: 40px;
     padding: 5px 34px;
-    width: 22vw;
+    width: 23vw;
     border: none;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
@@ -812,13 +812,14 @@ button {
     display: flex;
     background-color: #E7F3FF;
     height: 36px;
-    width: 22vw;
+    width: 23vw;
     align-items: center;
     justify-content: center;
     color: #385898;
     cursor: pointer;
     border: solid 0px #E7F3FF;
     border-radius: 2px;
+    padding-right: 12px;
 }
 
 button:hover {
