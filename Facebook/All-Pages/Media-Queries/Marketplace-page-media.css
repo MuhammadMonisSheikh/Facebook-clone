@@ -56,12 +56,7 @@ nav .nav-middle a.active::after {
 
   @media (max-width: 1310px){
 
-    .container {
-       height: 91vh;
-  }
-
    
-
 
     a.location {
     right: -754px;
@@ -217,19 +212,92 @@ a.location {
     button {
       width: 26.2vw;
   }
-
+.product-mainRowItem {
+    width: 27%;
+}
     a.location {
-      right: -634px;
+      right: -608px;
   }
      
   }
+ 
+  @media (max-width: 1180px) {
   
+nav .nav-middle a.active::after {
+    content: "";
+    width: 10.5vw;
+}
+.container .left-pannel .top-left-pannel>form>input {
+    width: 27vw;
+}
+
+
+button {
+  width: 26.3vw;
+}
+
+a.location {
+    right: -600px;
+}
+  }
+
+  @media (max-width: 1170px) {
+
+  button {
+    width: 26.6vw;
+}
+
+a.location {
+  right: -598px;
+}
+
+}
+
   @media (max-width: 1160px) {
    
+    a.location {
+      right: -590px;
+  }
+
+  .product-mainRow{
+    flex-wrap: wrap;
+  }
+
+.product-mainRowItem {
+    width: 40%;
+}
+
+.product-mainRowItem-Imgbox {
+   height: 314px;
+}
+
+
+.product-thirdRowItem{
+  display: none;
+}
+
+.mainRow{
+  position: relative;
+  top: 20px;
+}
+
+  button {
+    width: 26.9vw;
+}
+
+
   }
   
   @media (max-width: 1150px) {
     
+    button {
+      width: 27.1vw;
+  }
+   
+    a.location {
+      right: -585px;
+  }
+
   }
   
   @media (max-width: 1140px) {
