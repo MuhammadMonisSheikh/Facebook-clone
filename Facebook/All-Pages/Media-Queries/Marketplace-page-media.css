@@ -256,7 +256,7 @@ a.location {
   @media (max-width: 1160px) {
    
     a.location {
-      right: -590px;
+      right: -580px;
   }
 
   .product-mainRow{
@@ -268,7 +268,7 @@ a.location {
 }
 
 .product-mainRowItem-Imgbox {
-   height: 314px;
+   height: 298px;
 }
 
 
@@ -334,22 +334,43 @@ button {
   
   @media (max-width: 1150px) {
     
+
+
     button {
       width: 27.1vw;
   }
    
     a.location {
-      right: -585px;
+      right: -570px;
   }
+
+.product {
+    width: 97%;
+}
+
+
 
   }
   
   @media (max-width: 1140px) {
-     
+     .container .left-pannel .top-left-pannel>form>input {
+    width: 28vw;
+}
+
+button {
+    width: 27.4vw;
+}
+
   }
   
   @media (max-width: 1130px) {
    
+a.location {
+    right: -566px;
+}
+
+
+
   }
   
   @media (max-width: 1120px) {
