@@ -276,12 +276,56 @@ a.location {
   display: none;
 }
 
-.mainRow{
+.mainRow2{
   position: relative;
-  top: 20px;
+  top: 30px;
 }
 
-  button {
+.mainRow3{
+  position: relative;
+  top: 65px;
+}
+
+.mainRow4{
+  position: relative;
+  top: 84px;
+}
+
+.mainRow5{
+  position: relative;
+  top: 105px;
+}
+
+.mainRow6{
+  position: relative;
+  top: 122px;
+}
+
+.mainRow7{
+  position: relative;
+  top: 142px;
+}
+
+.mainRow8{
+  position: relative;
+  top: 160px;
+}
+
+.mainRow9{
+  position: relative;
+  top: 196px;
+}
+
+.mainRow10{
+  position: relative;
+  top: 230px;
+}
+
+.container .left-pannel {
+   height: 94vh;
+}
+
+button {
     width: 26.9vw;
 }
 
