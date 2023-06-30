@@ -32,6 +32,8 @@ a.location {
 
   }
 
+
+
   @media (max-width: 1320px) {
 
 nav .nav-middle a.active::after {
@@ -364,23 +366,63 @@ button {
   }
   
   @media (max-width: 1130px) {
+    
+    button {
+        width: 27.6vw;
+    }
    
 a.location {
     right: -566px;
 }
 
-
-
   }
   
   @media (max-width: 1120px) {
-   
+   a.location {
+    right: -556px;
+}
+
+button {
+    width: 27.9vw;
+}
   }
   
+  @media (max-width: 1110px) {
+
+  a.location {
+    right: -546px;
+}
+  }
+
   @media (max-width: 1100px) {
     
+    .container .left-pannel .top-left-pannel>form>input {
+      width: 29vw;
   }
-  
+   
+  button {
+    width: 28.4vw;
+}
+
+    a.location {
+      right: -540px;
+  }
+
+  }
+   
+  @media (max-width: 1090px) {
+
+
+
+  a.location {
+    right: -535px;
+}
+
+
+
+  }
+
+
   @media (max-width: 1080px) {
      
   }
