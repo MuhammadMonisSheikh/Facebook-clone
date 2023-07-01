@@ -446,9 +446,37 @@ a.location {
 
 
   }
+
+  @media (max-width: 1075px) {
+a.location {
+    right: -508px;
+}
+
+.product {
+    width: 94%;
+}
+
+button {
+    width: 29vw;
+}
+
+
+}
+
   
   @media (max-width: 1070px) {
-   
+   .container .left-pannel .top-left-pannel>form>input {
+    width: 30vw;
+}
+
+
+a.location {
+  right: -504px;
+}
+
+button {
+    width: 29.2vw;
+}
   }
   
   @media (max-width: 1050px) {
