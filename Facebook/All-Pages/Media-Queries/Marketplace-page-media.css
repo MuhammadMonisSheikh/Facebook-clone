@@ -412,10 +412,21 @@ button {
    
   @media (max-width: 1090px) {
 
+nav .nav-middle a.active::after {
+    content: "";
+    width: 11.1vw;
+}
 
+button {
+    width: 28.6vw;
+}
 
   a.location {
-    right: -535px;
+    right: -530px;
+}
+
+.product {
+    width: 96%;
 }
 
 
@@ -424,7 +435,16 @@ button {
 
 
   @media (max-width: 1080px) {
-     
+    
+    button {
+    width: 28.8vw;
+}
+
+a.location {
+    right: -524px;
+}
+
+
   }
   
   @media (max-width: 1070px) {
