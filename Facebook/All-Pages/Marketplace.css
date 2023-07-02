@@ -43,7 +43,7 @@ nav .nav-left, nav .nav-right {
 
 }
 
-nav .nav-left>img {
+nav .nav-left>a>img {
     width: 40px;
 }
 
