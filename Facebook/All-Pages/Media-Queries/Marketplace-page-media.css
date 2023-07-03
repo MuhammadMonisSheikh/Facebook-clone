@@ -1,602 +1,615 @@
-@media (max-width: 1360px) { 
+@media (max-width: 1360px) {
 
-a.location {
-   right: -784px;
-}
+  a.location {
+    right: -784px;
+  }
 }
 
-@media (max-width: 1350px){
-a.location {
+@media (max-width: 1350px) {
+  a.location {
     right: -778px;
-}
+  }
 }
 
-@media (max-width: 1344px){
-a.location {
+@media (max-width: 1344px) {
+  a.location {
     right: -772px;
-}
+  }
 }
 
-@media (max-width: 1340px) { 
+@media (max-width: 1340px) {
 
   nav .nav-middle {
-     left: 42px;
-}
+    left: 42px;
+  }
 
- 
+
   a.location {
     right: -762px;
-}
-
-
-
   }
 
 
 
-  @media (max-width: 1320px) {
-
-nav .nav-middle a.active::after {
-    content: "";
-    width: 9.5vw;
 }
 
-    .container .left-pannel .top-left-pannel>form>input {
-       width: 24vw;
-    }
+
+
+@media (max-width: 1320px) {
+
+  nav .nav-middle a.active::after {
+    content: "";
+    width: 9.5vw;
+  }
+
+  .container .left-pannel .top-left-pannel>form>input {
+    width: 24vw;
+  }
 
   button {
-     width: 24vw;
-     padding-right: 14px;
+    width: 24vw;
+    padding-right: 14px;
   }
 
   a.location {
     right: -758px;
-}
- 
   }
 
-  @media (max-width: 1310px){
+}
 
-   
+@media (max-width: 1310px) {
 
-    a.location {
+
+
+  a.location {
     right: -754px;
-}
-}
-     
-  @media (max-width: 1300px) {
-  
-    button {
-      width: 24.4vw;
-      padding-right: 10px;
   }
-  
-  
+}
 
-    a.location {
-      right: -744px;
+@media (max-width: 1300px) {
+
+  button {
+    width: 24.4vw;
+    padding-right: 10px;
   }
-     
+
+
+
+  a.location {
+    right: -744px;
   }
-  
-  @media (max-width: 1295px) {
-  
-    a.location {
-      right: -716px;
+
+}
+
+@media (max-width: 1295px) {
+
+  a.location {
+    right: -716px;
   }
 
   .product {
     width: 97%;
   }
 
-  }
- 
-  @media (max-width: 1290px) {
-  
+}
+
+@media (max-width: 1290px) {
+
   a.location {
     right: -712px;
-}
+  }
 }
 
-  @media (max-width: 1280px) {
-  
-.button {
+@media (max-width: 1280px) {
+
+  .button {
     padding-left: 17px;
-}
-
-    a.location {
-    right: -704px;
-}
-  
-  
   }
 
-  @media (max-width: 1270px) {
+  a.location {
+    right: -704px;
+  }
+
+
+}
+
+@media (max-width: 1270px) {
 
   a.location {
     right: -700px;
+  }
 }
+
+@media (max-width: 1260px) {
+
+  .container .left-pannel .top-left-pannel>form>input {
+    width: 25vw;
   }
 
-  @media (max-width: 1260px) {
-  
-.container .left-pannel .top-left-pannel>form>input {
-    width: 25vw;
-}
   button {
     width: 24.7vw;
     padding-right: 12px;
+  }
+
+  a.location {
+    right: -686px;
+  }
+
+
 }
 
-    a.location {
-    right: -686px;
-}
- 
-  
+@media (max-width: 1250px) {
+
+
+  nav .nav-middle a.active::after {
+    content: "";
+    width: 10vw;
   }
-  
-  @media (max-width: 1250px) {
-  
-    
-    nav .nav-middle a.active::after {
-      content: "";
-      width: 10vw;
-    }
-button {
-    width: 24.9vw; 
-}
+
+  button {
+    width: 24.9vw;
+  }
 
   a.location {
     right: -678px;
+  }
+
 }
 
+@media (max-width: 1240px) {
+
+  button {
+    width: 25.2vw;
   }
-  @media (max-width: 1240px) {
-    
-    button {
-      width: 25.2vw; 
-    }
- 
-    a.location {
-      right: -674px;
+
+  a.location {
+    right: -674px;
   }
 }
-  @media (max-width: 1230px) {
-    button {
-      padding-right: 14px;
-  }
-   
-    a.location {
-      right: -670px;
-  }
+
+@media (max-width: 1230px) {
+  button {
+    padding-right: 14px;
   }
 
-  @media (max-width: 1220px) {
+  a.location {
+    right: -670px;
+  }
+}
 
-    .container .left-pannel .top-left-pannel>form>input {
-      width: 26vw;
-    }
+@media (max-width: 1220px) {
 
-    button {
-      width: 25.6vw;
-      padding-right: 10px;
-    
-    }
-  
+  .container .left-pannel .top-left-pannel>form>input {
+    width: 26vw;
+  }
+
+  button {
+    width: 25.6vw;
+    padding-right: 10px;
+
+  }
+
 
   .product {
     width: 96%;
-}
-
-a.location {
-  right: -657px;
-}
-
   }
 
-  @media (max-width: 1210px) {
-  
+  a.location {
+    right: -657px;
+  }
+
+}
+
+@media (max-width: 1210px) {
+
   a.location {
     right: -650px;
+  }
 }
+
+@media (max-width: 1200px) {
+  a.location {
+    right: -644px;
   }
-  @media (max-width: 1200px) {
-    a.location {
-      right: -644px;
-  }
+
   button {
-    width: 26vw;  
+    width: 26vw;
   }
 }
-  @media (max-width: 1190px) {
-  
-    button {
-      width: 26.2vw;
+
+@media (max-width: 1190px) {
+
+  button {
+    width: 26.2vw;
   }
-.product-mainRowItem {
+
+  .product-mainRowItem {
     width: 27%;
+  }
+
+  a.location {
+    right: -608px;
+  }
+
 }
-    a.location {
-      right: -608px;
-  }
-     
-  }
- 
-  @media (max-width: 1180px) {
-  
-nav .nav-middle a.active::after {
+
+@media (max-width: 1180px) {
+
+  nav .nav-middle a.active::after {
     content: "";
     width: 10.5vw;
-}
-.container .left-pannel .top-left-pannel>form>input {
-    width: 27vw;
-}
-
-
-button {
-  width: 26.3vw;
-}
-
-a.location {
-    right: -600px;
-}
   }
 
-  @media (max-width: 1170px) {
+  .container .left-pannel .top-left-pannel>form>input {
+    width: 27vw;
+  }
+
+
+  button {
+    width: 26.3vw;
+  }
+
+  a.location {
+    right: -600px;
+  }
+}
+
+@media (max-width: 1170px) {
 
   button {
     width: 26.6vw;
-}
-
-a.location {
-  right: -598px;
-}
-
-}
-
-  @media (max-width: 1160px) {
-   
-    a.location {
-      right: -580px;
   }
 
-  .product-mainRow{
+  a.location {
+    right: -598px;
+  }
+
+}
+
+@media (max-width: 1160px) {
+
+  a.location {
+    right: -580px;
+  }
+
+  .product-mainRow {
     flex-wrap: wrap;
   }
 
-.product-mainRowItem {
+  .product-mainRowItem {
     width: 40%;
-}
+  }
 
-.product-mainRowItem-Imgbox {
-   height: 298px;
-}
+  .product-mainRowItem-Imgbox {
+    height: 298px;
+  }
 
 
-.product-thirdRowItem{
-  display: none;
-}
+  .product-thirdRowItem {
+    display: none;
+  }
 
-.mainRow2{
-  position: relative;
-  top: 30px;
-}
+  .mainRow2 {
+    position: relative;
+    top: 30px;
+  }
 
-.mainRow3{
-  position: relative;
-  top: 65px;
-}
+  .mainRow3 {
+    position: relative;
+    top: 65px;
+  }
 
-.mainRow4{
-  position: relative;
-  top: 84px;
-}
+  .mainRow4 {
+    position: relative;
+    top: 84px;
+  }
 
-.mainRow5{
-  position: relative;
-  top: 105px;
-}
+  .mainRow5 {
+    position: relative;
+    top: 105px;
+  }
 
-.mainRow6{
-  position: relative;
-  top: 122px;
-}
+  .mainRow6 {
+    position: relative;
+    top: 122px;
+  }
 
-.mainRow7{
-  position: relative;
-  top: 142px;
-}
+  .mainRow7 {
+    position: relative;
+    top: 142px;
+  }
 
-.mainRow8{
-  position: relative;
-  top: 160px;
-}
+  .mainRow8 {
+    position: relative;
+    top: 160px;
+  }
 
-.mainRow9{
-  position: relative;
-  top: 196px;
-}
+  .mainRow9 {
+    position: relative;
+    top: 196px;
+  }
 
-.mainRow10{
-  position: relative;
-  top: 230px;
-}
+  .mainRow10 {
+    position: relative;
+    top: 230px;
+  }
 
-.container .left-pannel {
-   height: 94vh;
-}
+  .container .left-pannel {
+    height: 94vh;
+  }
 
-button {
+  button {
     width: 26.9vw;
+  }
+
+
 }
 
-
-  }
-  
-  @media (max-width: 1150px) {
-    
+@media (max-width: 1150px) {
 
 
-    button {
-      width: 27.1vw;
-  }
-   
-    a.location {
-      right: -570px;
+
+  button {
+    width: 27.1vw;
   }
 
-.product {
+  a.location {
+    right: -570px;
+  }
+
+  .product {
     width: 97%;
+  }
+
+
+
 }
 
-
-
-  }
-  
-  @media (max-width: 1140px) {
-     .container .left-pannel .top-left-pannel>form>input {
+@media (max-width: 1140px) {
+  .container .left-pannel .top-left-pannel>form>input {
     width: 28vw;
-}
+  }
 
-button {
+  button {
     width: 27.4vw;
+  }
+
 }
 
+@media (max-width: 1130px) {
+
+  button {
+    width: 27.6vw;
   }
-  
-  @media (max-width: 1130px) {
-    
-    button {
-        width: 27.6vw;
-    }
-   
-a.location {
+
+  a.location {
     right: -566px;
+  }
+
 }
 
-  }
-  
-  @media (max-width: 1120px) {
-   a.location {
+@media (max-width: 1120px) {
+  a.location {
     right: -556px;
+  }
+
+  button {
+    width: 27.9vw;
+  }
 }
 
-button {
-    width: 27.9vw;
-}
-  }
-  
-  @media (max-width: 1110px) {
+@media (max-width: 1110px) {
 
   a.location {
     right: -546px;
+  }
 }
+
+@media (max-width: 1100px) {
+
+  .container .left-pannel .top-left-pannel>form>input {
+    width: 29vw;
   }
 
-  @media (max-width: 1100px) {
-    
-    .container .left-pannel .top-left-pannel>form>input {
-      width: 29vw;
-  }
-   
   button {
     width: 28.4vw;
+  }
+
+  a.location {
+    right: -540px;
+  }
+
 }
 
-    a.location {
-      right: -540px;
-  }
+@media (max-width: 1090px) {
 
-  }
-   
-  @media (max-width: 1090px) {
-
-nav .nav-middle a.active::after {
+  nav .nav-middle a.active::after {
     content: "";
     width: 11.1vw;
-}
+  }
 
-button {
+  button {
     width: 28.6vw;
-}
+  }
 
   a.location {
     right: -530px;
-}
+  }
 
-.product {
+  .product {
     width: 96%;
-}
-
-
-
   }
 
 
-  @media (max-width: 1080px) {
-    
-    button {
+
+}
+
+
+@media (max-width: 1080px) {
+
+  button {
     width: 28.8vw;
-}
+  }
 
-a.location {
+  a.location {
     right: -524px;
-}
-
-
   }
 
-  @media (max-width: 1075px) {
-a.location {
+
+}
+
+@media (max-width: 1075px) {
+  a.location {
     right: -508px;
-}
+  }
 
-.product {
+  .product {
     width: 94%;
-}
+  }
 
-button {
+  button {
     width: 29vw;
-}
+  }
 
 
 }
 
-  
-  @media (max-width: 1070px) {
-   .container .left-pannel .top-left-pannel>form>input {
+
+@media (max-width: 1070px) {
+  .container .left-pannel .top-left-pannel>form>input {
     width: 30vw;
-}
+  }
 
 
-a.location {
-  right: -504px;
-}
+  a.location {
+    right: -504px;
+  }
 
-button {
+  button {
     width: 29.2vw;
-}
   }
- 
-  @media (max-width: 1060px) {
-  
-button {
+}
+
+@media (max-width: 1060px) {
+
+  button {
     width: 29.5vw;
-}
-
-
-a.location {
-    right: -498px;
-}
   }
-  @media (max-width: 1050px) {
 
-    a.location {
+
+  a.location {
+    right: -498px;
+  }
+}
+
+@media (max-width: 1050px) {
+
+  a.location {
     right: -476px;
-}
+  }
 
-.product {
+  .product {
     width: 92%;
-}
+  }
 
-button {
+  button {
     width: 29.7vw;
+  }
+
+
 }
 
-  
-}
-  
-@media (max-width: 1040px){
-  
+@media (max-width: 1040px) {
+
   button {
     width: 30vw;
   }
-  
+
 }
 
-@media (max-width: 1030px){
-  
-    .container .left-pannel .top-left-pannel>form>input {
-      width: 31vw;
+@media (max-width: 1030px) {
+
+  .container .left-pannel .top-left-pannel>form>input {
+    width: 31vw;
   }
-  
-button {
+
+  button {
     width: 30.3vw;
   }
 
   a.location {
     right: -465px;
-}
+  }
 
 
 }
 
 
-  @media (max-width: 1020px) {
+@media (max-width: 1020px) {
 
-    
-    .container .middle-pannel {
-       position: relative;
-      left: 362px;
-    }
-    .middle-heading {
-      position: relative;
-      top: 14px;
+
+  .container .middle-pannel {
+    position: relative;
+    left: 362px;
+  }
+
+  .middle-heading {
+    position: relative;
+    top: 14px;
   }
 
   button {
     width: 30.6vw;
-}
+  }
 
- 
-    a.location {
+
+  a.location {
     right: -459px;
-} 
+  }
 
-.product {
+  .product {
     width: 86vw;
     padding-top: 50px;
   }
 
-.product-mainRowItem {
+  .product-mainRowItem {
     width: 22%;
-}
-.product-mainRowItem-Imgbox {
+  }
+
+  .product-mainRowItem-Imgbox {
     height: 192px;
-}
+  }
 
 
-.product-thirdRowItem {
+  .product-thirdRowItem {
     display: inline;
-}
+  }
 
 
-.product-mainRow {
-   height: 292px;
-}
-  
-.mainRow10 {
+  .product-mainRow {
+    height: 292px;
+  }
+
+  .mainRow10 {
     position: relative;
-    top:240px;
-}
- 
-.product-mainRowItem-price {
-  position: relative;
-  font-size: 15px;
-  left: 6px;
-}
- 
-.product-mainRowItem-Details {
-  font-size: 14px;
-  position: relative;
-  left: 5px;
-}
+    top: 240px;
+  }
 
-p.product-mainRowItem-location {
-  position: relative;
-  left: 5px;
-}
+  .product-mainRowItem-price {
+    position: relative;
+    font-size: 15px;
+    left: 6px;
+  }
+
+  .product-mainRowItem-Details {
+    font-size: 14px;
+    position: relative;
+    left: 5px;
+  }
+
+  p.product-mainRowItem-location {
+    position: relative;
+    left: 5px;
+  }
 
 
 
@@ -605,511 +618,521 @@ p.product-mainRowItem-location {
 
 @media (max-width: 1010px) {
 
-  
+
   button {
     width: 31vw;
-}
+  }
 
 
-  
+
   .container .left-pannel ul li a.filter {
     font-size: 15px;
-  }  
- 
+  }
 
- 
+
+
   a.location {
     right: -452px;
-}
-}
-
-  @media (max-width: 1000px) {
-  
-    nav .nav-left>a>img {
-      width: 34px;
   }
-  
+}
 
+@media (max-width: 1000px) {
 
-    nav .nav-middle a>i {
-      font-size: 16px;
+ 
+
+  nav .nav-middle a>i {
+    font-size: 16px;
   }
-  
+
 
   nav .nav-middle a.active::after {
     content: "";
     left: -5px;
     width: 10vw;
-}
+  }
 
-nav .nav-right a {
-   height: 35px;
-  width: 35px;
-}
+  nav .nav-right a {
+    height: 35px;
+    width: 35px;
+  }
 
-nav .nav-right .profile, .container .left-pannel .profile {
-   height: 40px;
-  width: 40px;
-}
-
-
-
-.container .left-pannel .top-left-pannel>form>input {
-  width: 32vw;
-}
+  nav .nav-right .profile, .container .left-pannel .profile {
+    height: 40px;
+    width: 40px;
+  }
 
 
-.container .left-pannel ul li a.filter {
-  font-size: 14px;
-}
+
+  .container .left-pannel .top-left-pannel>form>input {
+    width: 32vw;
+  }
+
+
+  .container .left-pannel ul li a.filter {
+    font-size: 14px;
+  }
 
 
   a.location {
     right: -444px;
-}
-
-
-.product {
-  width: 85vw;
-}
-  }  
-
-  @media (max-width:995px) {
-
-    button {
-      width: 31.4vw;
   }
-  
+
+
+  .product {
+    width: 85vw;
+  }
+}
+
+@media (max-width:995px) {
+
+  button {
+    width: 31.4vw;
+  }
+
   a.location {
     right: -442px;
   }
 
-  }
+}
 
-  @media (max-width:990px) {
-    
-    a.location {
-      right: -438px;
+@media (max-width:990px) {
+
+  a.location {
+    right: -438px;
   }
 
   button {
     width: 31.5vw;
+  }
+
 }
 
+@media (max-width:980px) {
+
+  a.location {
+    right: -428px;
   }
-  
-  @media (max-width:980px) {
-  
-    a.location {
-      right: -428px;
-  }
+
   .product {
- 
+
     width: 84.5vw;
-}  
-  
-button {
-  width: 31.8vw;
+  }
+
+  button {
+    width: 31.8vw;
+  }
+
+
+
 }
 
+@media (max-width:970px) {
 
-
-  }
-  
-  @media (max-width:970px) {
-
-    
-    .container .middle-pannel {
-       top: -12px;
+  .container .left-pannel .top-left-pannel>form>input {
+    width: 33vw;
   }
 
+  button {
+    width: 32.2vw;
+  }
 
-      .mainRow2 {
-        position: relative;
-        top: 74px;
-    }
-  
 
-    .mainRow3 {
-      position: relative;
-      top: 160px;
+  .container .middle-pannel {
+    top: -12px;
+  }
+
+
+  a.location {
+    right: -412px;
+  }
+
+
+  .product-mainRow {
+    height: 330px;
+  }
+
+
+  .mainRow2 {
+    position: relative;
+    top: 26px;
+  }
+
+
+  .mainRow3 {
+    position: relative;
+    top: 66px;
   }
 
   .mainRow4 {
     position: relative;
-    top: 245px;
-}
-
-.mainRow5 {
-  position: relative;
-  top: 315px;
-}
-
-.mainRow6 {
-  position: relative;
-  top: 384px;
-}
-
-.mainRow7 {
-  position: relative;
-  top: 460px;
-}
-
-.mainRow8 {
-  position: relative;
-  top: 521px;
-}
-
-.mainRow9 {
-  position: relative;
-  top: 606px;
-}
-
-.mainRow10 {
-  position: relative;
-  top:687px;
-}
-
-
-
-    .product-mainRowItem {
-      width: 33%;
+    top: 96px;
   }
-  
+
+  .mainRow5 {
+    position: relative;
+    top: 128px;
+  }
+
+  .mainRow6 {
+    position: relative;
+    top: 168px;
+  }
+
+  .mainRow7 {
+    position: relative;
+    top: 210px;
+  }
+
+  .mainRow8 {
+    position: relative;
+    top: 238px;
+  }
+
+  .mainRow9 {
+    position: relative;
+    top: 284px;
+  }
+
+  .mainRow10 {
+    position: relative;
+    top: 316px;
+  }
+
+
+
+  .product-mainRowItem {
+    width: 33%;
+  }
+
   .product-mainRowItem-Imgbox {
     height: 240px;
+  }
+
+
+
+  .product-thirdRowItem {
+    display: none;
+  }
+
+
+
+}
+
+@media (max-width:960px) {
+
+
+
+  button {
+    width: 32.5vw;
+  }
+
+  nav .nav-middle a {
+    padding: 10px 28px 15px 28px;
+    margin: 0px 4px 4px;
+
+  }
+
+  nav .nav-middle a.active::after {
+    content: "";
+      left: 0px;
+    width: 8vw;
+  }
+
+a.location {
+    right: -406px;
 }
 
 
 
-    .product-thirdRowItem {
-      display: none;
-  }
+}
+
+@media (max-width:950px) {
+
+  button {
+    width: 32.8vw;
+}
+
+a.location {
+    right: -394px;
+}
+
+.product {
+    width: 83vw;
+}
 
 
 
 }
 
-  @media (max-width:960px) {
-     
-  }
-  
-  @media (max-width:950px) {
-     
-  }
-  
-  @media (max-width:940px) {
-   
-  }
-  
-  @media (max-width:920px) {
-    
-  }
-  
-  @media (max-width:900px) {
-   
-  
-  }
-  
-  @media (max-width:890px) {
-  
-    
-  }
-  
-  @media (max-width:880px) {
-   }
-  
-  @media (max-width:866px) {
-     
-  }
-  
-  @media (max-width:854px) {
-     
-  }
-  
-  @media (max-width:850px) {
-   
-  }
-  
-  @media (max-width:840px) {
-    
-  }
-  
-  @media (max-width:830px) {
-   
-  }
-  
-  @media (max-width:827px) {
-    
-  }
-  
-  @media (max-width:820px) {
-   
-  }
-  
-  @media (max-width: 810px) {
-    
-  }
-  
-  @media (max-width:800px) {
-     
-  
-  
-  }
-  
-  @media (max-width:790px) {
-   
-  }
-  
-  @media (max-width:780px) {
-    
-  }
-  
-  @media (max-width:770px) {
-   
-  }
-  
-  @media (max-width:760px) {
-  
-   
-  }
-  
-  @media (max-width:755px) {
-   
-  }
-  
-  @media (max-width:745px) {
-  
-    
-  }
-  
-  @media (max-width:740px) {
-   
-  }
-  @media (max-width:730px) {
-    
-  }
-  @media (max-width:725px) {
-   
-  }
-  @media (max-width:720px) {
-    
-  }
-  
-  @media (max-width:717px) {
-   
-  }
-  
-  @media (max-width:710px) {
-    
-  
-  }
-  
-  @media (max-width:700px) {
-     
-  
-  }
-  
-  @media (max-width: 690px) {
-   
-  }
-  
-  @media (max-width: 686px) {
-    
-  }
-  
-  @media (max-width:680px) {
-    
-  
-  }
-  
-  @media (max-width: 675px) {
-    
-  }
-  
-  @media (max-width: 670px) {
-   
-  
-  }
-  
-  @media (max-width: 665px){
-   }
-  
-  @media (max-width: 660px){
-   }
-  
-  @media (max-width: 657px){
-   }
-  
-  
-  @media (max-width: 652px){
-    
-  
-  }
-  
-   
-  
-  @media (max-width:645px) {
-     
-  }
-  
-  @media (max-width: 640px){
-     
-   
-  
-  }
-  
-  @media (max-width:636px) {
-    
-  }
-  
-  @media (max-width:630px) {
-   
-  }
-  
-  @media (max-width: 625px) {
-    
-  }
-  
-  @media (max-width: 620px){
-   
-  }
-  
-  @media (max-width: 607px){
-   
-  }
-  @media (max-width:600px) {
-   
-  }
-  
-  @media (max-width:590px) {
-   
-  }
-  
-  @media (max-width: 580px){
-    
-  }
-  
-  @media (max-width: 570px){
-   
-  }
-  
-  @media (max-width: 563px){
-    
-    }
-  
-  @media (max-width: 560px){
-   
-  }
-  
-  @media (max-width:550px) {
-    
-  }
-  
-  
-  @media (max-width:530px) {
-     
-  }
-  
-  @media (max-width:526px) {
-   
-  }
-  
-  @media (max-width:520px) {
-   
-  }
-  @media (max-width:500px) {
-    
-  }
-  
-  @media (max-width:490px) {
-     
-  }
-  
-  @media (max-width:486px) {
-   
-  }
-  
-  @media (max-width:480px) {
-   
-  }
-  
-  @media (max-width:474px) {
-   }
-  
-  @media (max-width:470px) {
-   
-  }
-  
-  @media (max-width:466px) {
-   
-  }
-  
-  @media (max-width:456px) {
-   }
-  
-  @media (max-width:450px) {
-   
-  }
-  
-  @media (max-width: 445px){
-   }
-  
-  @media (max-width: 435px){
-   }
-  
-  @media (max-width: 430px){
-   }
-  
-  @media (max-width: 424px){
-   }
-  
-  @media (max-width: 420px){
-   }
-  
-  @media (max-width: 414px){
-   }
-  
-  @media (max-width: 410px){
-   }
-  
-  @media (max-width: 400px){
-   }
-  @media (max-width: 395px) {
-   
-  }
-  
-  @media (max-width: 390px) {
-   }
-  
-  @media (max-width: 380px) {
-    
-  }
-  
-  @media (max-width: 375px){
-   }
-  
-  @media (max-width: 370px){
-   
-  }
-  
-  @media (max-width: 360px) {
-    
-  }
-  
-  @media (max-width: 356px) {
-   
-  }
-  
-  @media (max-width: 346px){
-   }
-  
-  @media (max-width: 340px){
-   }
-  
-  @media (max-width: 330px){
-   }
-  
-  @media (max-width: 320px) {
-    
-  }
+@media (max-width:940px) {
+
+.container .left-pannel .top-left-pannel>form>input {
+    width: 34vw;
+}
+
+
+button {
+    width: 33.2vw;
+}
+
+
+  a.location {
+    right: -380px;
+}
+
+}
+
+@media (max-width:930px) {
+
+  
+button {
+    width: 33.5vw;
+}
+
+.middle-heading {
+    position: relative;
+    top: 22px;
+}
+
+  a.location {
+      right: -366px;
+}
+
+.product {
+     padding-top: 54px;
+}
+
+.product-mainRowItem {
+  width: 32%;
+}
+
+}
+
+@media (max-width:925px) {
+
+  a.location {
+    right: -360px;
+}
+
+button {
+    width: 33.7vw;
+}
+
+}
+
+@media (max-width:920px) {
+
+.container .left-pannel .top-left-pannel>form>input {
+    width: 34.8vw;
+}
+
+button {
+    width: 33.9vw;
+}
+
+  a.location {
+    right: -358px;
+}
+
+
+
+}
+
+@media (max-width:910px) {
+
+nav .nav-middle a.active::after {
+    content: "";
+    left: 1px;
+}
+ 
+button {
+    width: 34.3vw;
+}
+
+a.location {
+    right: -354px;
+}
+
+}
+
+@media (max-width:900px) {
+
+.container .left-pannel .top-left-pannel>form>input {
+    width: 35.6vw;
+}
+
+
+button {
+    width: 34.7vw;
+}
+
+  a.location {
+    right: -343px;
+}
+
+
+.product {
+    width: 82vw;
+}
+
+}
+
+@media (max-width:890px) {}
+
+@media (max-width:880px) {}
+
+@media (max-width:866px) {}
+
+@media (max-width:854px) {}
+
+@media (max-width:850px) {}
+
+@media (max-width:840px) {}
+
+@media (max-width:830px) {}
+
+@media (max-width:827px) {}
+
+@media (max-width:820px) {}
+
+@media (max-width: 810px) {}
+
+@media (max-width:800px) {}
+
+@media (max-width:790px) {}
+
+@media (max-width:780px) {}
+
+@media (max-width:770px) {}
+
+@media (max-width:760px) {}
+
+@media (max-width:755px) {}
+
+@media (max-width:745px) {}
+
+@media (max-width:740px) {}
+
+@media (max-width:730px) {}
+
+@media (max-width:725px) {}
+
+@media (max-width:720px) {}
+
+@media (max-width:717px) {}
+
+@media (max-width:710px) {}
+
+@media (max-width:700px) {}
+
+@media (max-width: 690px) {}
+
+@media (max-width: 686px) {}
+
+@media (max-width:680px) {}
+
+@media (max-width: 675px) {}
+
+@media (max-width: 670px) {}
+
+@media (max-width: 665px) {}
+
+@media (max-width: 660px) {}
+
+@media (max-width: 657px) {}
+
+
+@media (max-width: 652px) {}
+
+
+
+@media (max-width:645px) {}
+
+@media (max-width: 640px) {}
+
+@media (max-width:636px) {}
+
+@media (max-width:630px) {}
+
+@media (max-width: 625px) {}
+
+@media (max-width: 620px) {}
+
+@media (max-width: 607px) {}
+
+@media (max-width:600px) {}
+
+@media (max-width:590px) {}
+
+@media (max-width: 580px) {}
+
+@media (max-width: 570px) {}
+
+@media (max-width: 563px) {}
+
+@media (max-width: 560px) {}
+
+@media (max-width:550px) {}
+
+
+@media (max-width:530px) {}
+
+@media (max-width:526px) {}
+
+@media (max-width:520px) {}
+
+@media (max-width:500px) {}
+
+@media (max-width:490px) {}
+
+@media (max-width:486px) {}
+
+@media (max-width:480px) {}
+
+@media (max-width:474px) {}
+
+@media (max-width:470px) {}
+
+@media (max-width:466px) {}
+
+@media (max-width:456px) {}
+
+@media (max-width:450px) {}
+
+@media (max-width: 445px) {}
+
+@media (max-width: 435px) {}
+
+@media (max-width: 430px) {}
+
+@media (max-width: 424px) {}
+
+@media (max-width: 420px) {}
+
+@media (max-width: 414px) {}
+
+@media (max-width: 410px) {}
+
+@media (max-width: 400px) {}
+
+@media (max-width: 395px) {}
+
+@media (max-width: 390px) {}
+
+@media (max-width: 380px) {}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 370px) {}
+
+@media (max-width: 360px) {}
+
+@media (max-width: 356px) {}
+
+@media (max-width: 346px) {}
+
+@media (max-width: 340px) {}
+
+@media (max-width: 330px) {}
+
+@media (max-width: 320px) {}
