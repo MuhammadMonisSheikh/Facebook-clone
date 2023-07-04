@@ -977,9 +977,56 @@ button {
 
 }
 
-@media (max-width:890px) {}
+@media (max-width:890px) {
+ 
 
-@media (max-width:880px) {}
+  nav.responsive >form>input {
+    height: 40px;
+    padding: 5px 34px;
+    width: 23vw;
+    border: none;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    outline: none;
+    background-color: #eee;
+    margin-left: -6px;
+}
+
+nav.responsive >form>i.fas.fa-magnifying-glass {
+
+  position: relative;
+  left: 20px;
+  bottom: -13px;
+}
+
+
+
+  .container .left-pannel{
+   display: none;
+  }
+
+
+.product-thirdRowItem {
+    display: inline;
+}
+
+.container .middle-pannel {
+    position: relative;
+    left: 58px;
+}
+
+.responsive-header{
+  display: flex;
+}
+
+}
+
+@media (max-width:880px) {
+
+
+}
 
 @media (max-width:866px) {}
 
