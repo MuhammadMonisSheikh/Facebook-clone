@@ -3,19 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-}
-
+     }
+     
+     /*
 body {
     overflow: hidden;
-}
+} */
 
 header {
     background-color: #fff;
 }
-
-.responsive-create {
-    display: none;
-}
+ 
 
 .responsive-header {
     display: none;
