@@ -1,8 +1,15 @@
 @media (max-width: 1360px) {
 
+  .container {
+     height: 91.1vh;
+}
+
+
   a.location {
     right: -784px;
   }
+
+
 }
 
 @media (max-width: 1350px) {
@@ -1059,12 +1066,14 @@
 
     position: relative;
 top: -12px;
+display: flex;
+align-items: baseline;
   }
 
 
   nav.responsive-header>form>input {
     height: 40px;
-    padding: 5px 34px;
+    padding:5px 34px;
     width: 97vw;
     border: none;
     border-top-left-radius: 50px;
@@ -1072,17 +1081,25 @@ top: -12px;
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
     outline: none;
-    background-color: #eee;
-    margin-left: -6px;
-  }
+    background-color: #eee; 
+ margin-left: -14px;  
+}
 
   nav.responsive-header>form>i.fas.fa-magnifying-glass {
 
     position: relative;
-    left: 7px;
-    bottom: -26px;
+    left: 12px;
+    
+  }
+  
+  .border-categories{
+border-bottom:10px ;
   }
 
+
+  .container {
+     height: 74.2vh;
+  }
 
 
   .container .left-pannel {
@@ -1121,9 +1138,19 @@ top: -12px;
 
 }
 
+@media (max-width:885px) {
+nav.responsive-header>form>input {
+   width: 96vw;
+}
 
+}
 
-@media (max-width:880px) {}
+@media (max-width:880px) {
+
+  a.location {
+    right: -643px;
+  }
+}
 
 @media (max-width:866px) {}
 
