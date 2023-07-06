@@ -558,11 +558,7 @@
     position: relative;
     left: 362px;
   }
-
-  .middle-heading {
-    position: relative;
-    top: 14px;
-  }
+ 
 
   button {
     width: 30.6vw;
@@ -895,12 +891,7 @@
   button {
     width: 33.5vw;
   }
-
-  .middle-heading {
-    position: relative;
-    top: 22px;
-  }
-
+ 
   a.location {
     right: -366px;
   }
@@ -985,6 +976,15 @@
 }
 
 @media (max-width:890px) {
+  nav {
+    border-bottom: 1px solid #EBEBEB;
+}
+
+nav .nav-left {
+    position: relative;
+    left: -3px;
+}
+
 
   nav .nav-middle a.active::after {
     content: "";
@@ -1069,7 +1069,9 @@ position: absolute;
 top: -12px;
 display: flex;
 align-items: baseline;
-  }
+left: -6px;
+width: 95vw;
+}
 
 
   nav.responsive-header>form>input {
@@ -1117,7 +1119,7 @@ font-size: 16px
     position: relative;
     left: 4px;    
     top: 114px;
-    height: 550vh;
+    height: 562vh;
     width: 100%;
     background: #F0F2F5;
   }
@@ -1128,8 +1130,7 @@ font-size: 16px
 
 
 .middle-heading {
-    position: relative;
-    top: 22px;
+    position: relative; 
     left: 58px;
 }
 
@@ -1137,7 +1138,7 @@ font-size: 16px
      left: -48px;
   }
   a.location {
-    right: -654px;
+    right: -648px;
     cursor: pointer;
 }
 
@@ -1145,43 +1146,91 @@ font-size: 16px
    width: 97vw;
     position: relative;
     left: -3px;
+    top: -26px;
 }
-
 
 
 }
 
 @media (max-width:885px) {
-nav.responsive-header>form>input {
-   width: 96vw;
+ 
+a.location {
+  right: -640px;
 }
-
 }
 
 @media (max-width:880px) {
 
   a.location {
-    right: -643px;
-  }
+    right: -636px;
+}
 }
 
-@media (max-width:866px) {}
+@media (max-width:870px) {
+a.location {
+  right: -632px;
+}
+}
 
-@media (max-width:854px) {}
+@media (max-width:865px) {
 
-@media (max-width:850px) {}
+  a.location {
+    right: -626px;
+}
 
-@media (max-width:840px) {}
 
-@media (max-width:830px) {}
+}
 
-@media (max-width:827px) {}
+@media (max-width:860px) {
 
-@media (max-width:820px) {}
+nav.responsive-header>form {
+   width: 96vw;
+}
+}
 
-@media (max-width: 810px) {}
+@media (max-width:855px) {
 
-@media (max-width:800px) {}
+  a.location {
+    right: -612px;
+}
+
+}
+
+@media (max-width:840px) {
+a.location {
+  right: -605px;
+}
+}
+
+@media (max-width:830px) {
+a.location {
+  right: -592px;
+}
+}
+  
+@media (max-width:820px) {
+
+  a.location {
+    right: -584px;
+}
+
+}
+
+@media (max-width: 810px) {
+
+  a.location {
+    right: -574px;
+}
+
+}
+
+@media (max-width:800px) {
+
+  a.location {
+    right: -566px;
+}
+
+}
 
 @media (max-width:790px) {}
 

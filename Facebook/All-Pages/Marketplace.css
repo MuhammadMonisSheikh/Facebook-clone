@@ -843,6 +843,12 @@ i.fas.fa-plus {
     top: 7px;
 }
 
+.middle-heading {
+    position: relative;
+    top: -28px;
+}
+
+
 
 
 .container .middle-pannel .mid-pannel-container .middle-heading {
