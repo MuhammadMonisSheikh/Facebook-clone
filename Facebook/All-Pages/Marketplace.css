@@ -14,10 +14,25 @@ header {
     background-color: #fff;
 }
  
-
-.responsive-header {
+a.responsive-mid{
     display: none;
 }
+
+nav.responsive-header {
+    display: none;
+}
+
+
+
+a.rit.responsive-rit1{
+    display: none;
+}
+
+
+nav.responsive-header2 {
+    display: none;
+}
+
 
 nav {
     height: 58px;
@@ -30,10 +45,7 @@ nav {
     position: static;
 }
 
-
-.responsive-image {
-    display: none;
-}
+ 
 
 nav .nav-left, nav .nav-right {
     display: flex;
