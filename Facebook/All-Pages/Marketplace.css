@@ -5,10 +5,7 @@
     font-family: sans-serif;
      }
      
-     /*
-body {
-    overflow: hidden;
-} */
+      
 
 header {
     background-color: #fff;
@@ -33,6 +30,10 @@ nav.responsive-header2 {
     display: none;
 }
 
+
+nav.responsive-header3{
+    display: none;
+}   
 
 nav {
     height: 58px;

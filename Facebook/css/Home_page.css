@@ -5,11 +5,7 @@
     font-family: sans-serif;
 }
  
-
-body {
- overflow: hidden;
-}     
-
+ 
 header{
     background-color: #fff;
 }
@@ -157,7 +153,7 @@ nav .nav-right a>i {
     background: #F0F2F5;
     overflow: scroll;
     overflow-x: hidden;
-    height: 92vh;
+    height: 91.2vh;
 }
 
 .responsive-pannel{
