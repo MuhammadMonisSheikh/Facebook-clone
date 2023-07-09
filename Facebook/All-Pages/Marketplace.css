@@ -888,6 +888,9 @@ a.location:hover {
     text-decoration: underline;
 }
 
+a.responsive-location{
+    display: none;
+}
 
 .product {
     width: 100%;
