@@ -57,8 +57,12 @@ a.rit.responsive-rit-gear{
 
 nav .nav-right>form>i.fas.fa-magnifying-glass {
     margin-left: -35px;
+    color: #67696D;
   }
-  
+
+  i.fas.fa-magnifying-glass{
+  color: #67696D;
+}
   nav .nav-left>form>input{
     height: 40px;
     width: 40px;
@@ -84,17 +88,17 @@ nav .nav-middle {
 }
 
 nav .nav-middle .mid:hover, nav .nav-right .rit:hover {
-    background: #cdcdcd;
+    background: #F2F2F2;
     background-size: cover;
 }
 nav .nav-middle .mid:hover{
 border-radius: 10%;
-transition: .3s ease-in;
+transition: .2s ease-in;
 }
 
 nav .nav-middle a {
     text-decoration: none;
-    color: #333;
+    color: #65676B;
     padding: 10px 34px 15px 34px;
     margin: 0px 10px 4px;
 }
@@ -137,7 +141,7 @@ display: none;
 
 nav .nav-right a {
     text-decoration: none;
-    color: #333;
+    color: #050505;
     font-size: 1rem;
     height: 40px;
     width: 40px;
@@ -226,7 +230,7 @@ font-size: 25px;
 
 .container .left-pannel i.fas.fa-gear {
     text-decoration: none;
-    color: #333;
+    color: #242629;
     font-size: 1rem;
     height: 40px;
     width: 40px;
@@ -274,7 +278,7 @@ cursor: pointer;
 i.fas.fa-angle-right{
     position: relative;
     text-decoration: none;
-    color: #333;
+    color: #242629;
     font-size: 1rem;
     height: 40px;
     width: 40px;
@@ -300,12 +304,12 @@ i.fas.fa-angle-right{
 }
 
 .active2{
-    background: #ddd !important;
+    background: #F0F2F5 !important;
 }
 
 
 .container .left-pannel ul li:hover {
-    background: #ddd;
+    background: #F0F2F5;
 }
 
 
@@ -553,7 +557,7 @@ font-size: 14px;
         border-radius: 2px;
 }
 button:hover{
-background-color: #ddd;
+background-color: #DBE7F2;
 }
 
 button:visited{
@@ -607,12 +611,14 @@ i.fas.fa-plus {
 .post .post-top .post-info .time {
     font-size: 12px;
     cursor: pointer;
+color: #65676B;
 }
 
 
 .post .post-top i {
     margin-left: auto;
     cursor: pointer;
+    color: #65676B;
 }
 
 
@@ -653,6 +659,7 @@ i.fas.fa-plus {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: #7E676B;
 }
 
 .post .post-React-container .post-react-thumb {
@@ -683,11 +690,12 @@ i.fas.fa-plus {
     cursor: pointer;
     display: flex;
     align-items: center;
+    color: #737980;
 }
 
 
 .post .post-bottom .action:hover {
-    background: #ddd;
+    background: #F2F2F2;
 }
 
 .border-line-3 {
@@ -776,7 +784,7 @@ i.fas.fa-plus {
 
 .right-pannel .pages-section .page:hover,
 .right-pannel .friends-section .friend:hover {
-    background: #ddd;
+    background: #F2F2F2;
 }
 
 .right-pannel .pages-section .page>.dp,
