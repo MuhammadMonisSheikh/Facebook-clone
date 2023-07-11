@@ -65,6 +65,7 @@ nav .nav-left>form>input {
 nav .nav-left>form>i.fas.fa-magnifying-glass {
     left: 15px;
     position: relative;
+    color: #707276;
 }
 
 nav .nav-middle {
@@ -75,18 +76,18 @@ left: -30px;
 }
 
 nav .nav-middle .mid:hover, nav .nav-right .rit:hover {
-    background: #cdcdcd;
+    background: #F2F2F2;
     background-size: cover;
 }
 
 nav .nav-middle .mid:hover{
 border-radius: 10%;
-transition: .3s ease-in;
+transition: .2s ease-in;
 }
 
 nav .nav-middle a {
     text-decoration: none;
-    color: #333;
+    color: #65676B;
     padding:10px 34px 15px 34px;
     margin: 0px 10px 4px;
 }
@@ -128,7 +129,7 @@ display: none;
 
 nav .nav-right a {
     text-decoration: none;
-    color: #333;
+    color: #050505;
     font-size: 1rem;
     height: 40px;
     width: 40px;
@@ -217,7 +218,7 @@ display: none;
 
 
 .container .left-pannel ul li:hover {
-    background: #ddd;
+    background: #E4E6E9;
 }
 
 
@@ -374,7 +375,7 @@ i.fas.fa-angle-down {
 
 
 .reel:hover {
-    background: #cdcdcd;
+    background: #F2F2F2;
     background-size: cover;
     border-radius: 10%;
        transition: .3s ease-in;    
@@ -503,7 +504,9 @@ i.fas.fa-angle-right {
     cursor: pointer;
 }
 
-
+span {
+    color: #737578;
+}
 
 /* Postes */
 .post {
@@ -555,6 +558,7 @@ i.fas.fa-angle-right {
 .post .post-top i {
     margin-left: auto;
     cursor: pointer;
+    color: #65676B;
 }
 
 
@@ -589,6 +593,7 @@ i.fas.fa-angle-right {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: #6E7074;
 }
 
 .post .post-React-container .post-react-thumb {
@@ -619,6 +624,7 @@ i.fas.fa-angle-right {
     cursor: pointer;
     display: flex;
     align-items: center;
+    color: #606770;
 }
 
 
@@ -712,7 +718,7 @@ i.fas.fa-angle-right {
 
 .right-pannel .pages-section .page:hover,
 .right-pannel .friends-section .friend:hover {
-    background: #ddd;
+    background: #E4E6E9;
 }
 
 .right-pannel .pages-section .page>.dp,
